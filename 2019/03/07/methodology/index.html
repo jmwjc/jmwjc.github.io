@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=en>
 <head><meta name="generator" content="Hexo 3.8.0">
-    <!-- so meta -->
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!-- so meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
@@ -43,14 +43,14 @@
     
       <link rel="stylesheet" href="/css/rtl.css">
     
-    <!-- rss -->
+    <!-- rss --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
     
     
 </head>
 
 <body class="max-width mx-auto px3 ltr">
     
-      <div id="header-post">
+      <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="header-post">
   <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
   <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
   <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
@@ -141,14 +141,101 @@
   
 
   <div class="content" itemprop="articleBody">
-    <h1 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h1><h2 id="2-Kirchhoff-Love-Plate-Formulation"><a href="#2-Kirchhoff-Love-Plate-Formulation" class="headerlink" title="2. Kirchhoff-Love Plate Formulation"></a>2. Kirchhoff-Love Plate Formulation</h2><p>In this work, we considered the Kirchhoff-Love plate. Without losing generality, we assumed that the plate is isotropic and homogeneous, the  equilibrium equation has the following form with 4-th order partial derivative:<br>$$<br>\left{\begin{array}{l}<br>M_{ij,ij}=\bar{q} \;\; \text{in} \; \Omega\<br>-n_{i}M_{ij,j}=\bar{V} \;\; \text{or} \;\; w=\bar{w} \;\; \text{on} \; \Gamma^{}\<br>n_{j}M_{ij}=\bar{M}<em>{i} \;\; \text{or} \;\; w</em>{,i}=\bar{w}_{,i} \;\; \text{on} \; \Gamma^{}<br>\end{array} \right.\<br>\label{strong form}<br>$$<br>in which $\bar{q}$ is a distributed transverse load applied to the plate. $\Omega$, $\Gamma$ are the plate domain and its corresponding boundary of the plate respectively. $n_i$ is the $i$-th direction outward normal of boundary. $\bar{V}$, $\bar{M}<em>j$ are the prescribed distributed shear and moment  per unit area  respectively. $\bar{w}$, $\bar{w}</em>{,i}$ are the prescribed displacement and rotation on boundary. $M_{ij}$ is the bending moment and $w$ is transverse displacement or deflection. With the linear elastic constitutive relation, the bending moment can be rewritten by curvature as:<br>$$<br>\left{<br>\begin{array}{l}<br>M_{11}\M_{22}\M_{12}<br>\end{array}<br>\right}<br>=D\left[<br>\begin{matrix}<br>1 &amp; \nu &amp; 0 \<br>\nu &amp; 1 &amp; 0 \<br>0 &amp; 0 &amp; (1-\nu)/2<br>\end{matrix}<br>\right]<br>\left{<br>\begin{array}{l}<br>w_{,11}\w_{,22}\2w_{,12}<br>\end{array}<br>\right}<br>\label{constitutive relation}<br>$$<br>with the flexural rigidity $D$, which is given by Young’s modulus $E$, Poisson rate $\nu$, and plate thickness $t$ as:<br>$$<br>D=\frac{Et^{3}}{12(1-\nu^{2})}<br>$$<br>According to the principle of virtual work,  the weak form of Eq. $\ref{strong form}$ is written as:<br>$$<br>\int_{\Omega}{\delta w_{,ij}M_{ij}d\Omega}=\int_{\Gamma}{\delta w_{,i}\bar{M}<em>{,i}}d\Gamma+\int</em>{\Gamma}{\delta w \bar{V}d\Gamma}+\int_{\Omega}{\delta w\bar{q}d\Omega}<br>\label{weak form}<br>$$<br>Subsequently, the numerical approximation is introduced into deflection formulation. The approximate virtual deflection denoted by $\delta w^{h}$ and its derivatives are expressed by a combination of shape function and nodal coefficient as:<br>$$<br>\left{<br>\begin{array}{l}<br>\delta w^{h}=\sum_{I=1}^{NP}\Psi_{I}(\boldsymbol{x})\delta d_I \<br>\delta w^{h}<em>{,i}=\sum</em>{I=1}^{NP}\Psi_{I,i}(\boldsymbol{x})\delta d_I \<br>\delta w^{h}<em>{,ij}=\sum</em>{I=1}^{NP}\Psi_{I,ij}(\boldsymbol{x})\delta d_I<br>\end{array}<br>\right.<br>\label{discretize}<br>$$<br>where $\Psi_I$, $d_I$ are the shape function and nodal coefficient equipped at node $\boldsymbol{x}<em>I$. $NP$ is the total number of discretized nodes. Pluging Eq. $\ref{discretize}$ into weak form Eq. $\ref{weak form}$ yields the following discrete equations:<br>$$<br>\int</em>{\Omega}{\Psi_{I,ij}M_{ij}d\Omega}=\int_{\Gamma}{\Psi_{I,i}\bar{M}<em>{,i}}d\Gamma+\int</em>{\Gamma}{\Psi_{I} \bar{V}d\Gamma}+\int_{\Omega}{\Psi_{I}\bar{q}d\Omega}<br>\label{discrete equations}<br>$$<br> It’s commonly known that the shape functions we chosen will influence  the accuracy of formulation. There are two important properties of shape functions determining directly the order of formulating accuracy, 1. <strong>Consistency condition</strong>; 2. <strong>Integration constraint</strong>.  To gain more insight of the methodology, we first review the two essential properties.</p>
-<p>The consistency condition makes sure that the shape functions can reproduce the approximant of variable exactly while the exact variable is a polynomial. In this problem, when the virtual deflection is a $n$-th order polynomial, yields:<br>$$<br>\delta w(\boldsymbol{x})=\boldsymbol{\alpha}^T\boldsymbol{p}^{[n]}(\boldsymbol{x})<br>\label{approximant variable}<br>$$<br> where $\boldsymbol{\alpha}$ is a constant parameter vector. $\boldsymbol{p}^{[n]}$ is $n$-th order monomial basis vector as:<br>$$<br>\boldsymbol{p}^{[n]}(\boldsymbol{x})=<br>{\begin{array}{l}<br>1 &amp; x &amp; y &amp; x^2 &amp; xy &amp; … &amp; y^n<br>\end{array}}^T<br>$$<br>to reproduce the polynomial of virtual deflection, the shape function will be stasified with the consistency condition, which is given by substituting Eq. $\ref{approximant variable}$ into Eq. $\ref{discretize}$ as:<br>$$<br>\left{<br>\begin{array}{l}<br>\sum_{I=1}^{NP}\Psi_{I}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}<em>{I})=\boldsymbol{p}^{[n]}(\boldsymbol{x})\<br>\sum</em>{I=1}^{NP}\Psi_{I,i}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}<em>{I})=\boldsymbol{p}</em>{,i}^{[n]}(\boldsymbol{x})\<br>\sum_{I=1}^{NP}\Psi_{I,ij}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}<em>{I})=\boldsymbol{p}</em>{,ij}^{[n]}(\boldsymbol{x})\<br>\end{array}<br>\right.<br>\label{consistency condition}<br>$$<br>Meanwhile, integration constraint is the equations for measuring the integration error in Eq. $\ref{discrete equations}$ while the moments are polynomial. Considering both of Eq. $\ref{constitutive relation}$ and Eq. $\ref{approximant variable}$, as the deflection is a $n$-th order polynomial, the moments should be a $(n-2)$-th order polynomial:<br>$$<br>M_{ij}(\boldsymbol{x})=\boldsymbol{\beta}^T\boldsymbol{p}^{[n-2]}(\boldsymbol{x})<br>\label{discretize moment}<br>$$<br>hence the prescrible external force in Eq. $\ref{strong form}$ can be rewritten by Eq. $\ref{discretize moment}$ as:<br>$$<br>\left{<br>\begin{array}{l}<br>\bar{M}<em>{i}=n</em>{j}M_{ij}=\boldsymbol{\beta}^Tn_{j}\boldsymbol{p}^{[n-2]}\<br>\bar{V}=-n_{i}M_{ij,j}=-\boldsymbol{\beta}^Tn_{i}\boldsymbol{p}^{[n-2]}<em>{,j}\<br>\bar{q}=M</em>{ij,ij}=\boldsymbol{\beta}^T\boldsymbol{p}^{[n-2]}<em>{,ij}<br>\end{array}<br>\right.<br>\label{exteranl force}<br>$$<br>where $\boldsymbol{\beta}$ is a constant parameter vector as well. Subsquently, the desired integration constraint for thin plate problem can be got by adding Eq. $\ref{exteranl force}$ to Eq. $\ref{discrete equations}$ as:<br>$$<br>\int</em>{\Omega}{\Psi_{I,ij}\boldsymbol{p}^{[n-2]}d\Omega}=\int_{\Gamma}{\Psi_{I,i}n_{j}\boldsymbol{p}^{[n-2]}d\Gamma}-\int_{\Gamma}{\Psi_{I} n_{i}\boldsymbol{p}^{[n-2]}<em>{,j}d\Gamma}+\int</em>{\Omega}{\Psi_{I}\boldsymbol{p}^{[n-2]}_{,ij}d\Omega}<br>\label{integration constraint}<br>$$<br>Consquently, the shape functions satisfied with consistency condition Eq. $\ref{consistency condition}$ and integration constraint Eq. $\ref{integration constraint}$ will achieve $n$-th order accuracy in Kirchhoff-Love plate problem, or equivalently, this formulation error takes the following form:<br>$$<br>\left|<br>w-w^h<br>\right|_s=O(h^{n+1-s}+h^{2(n-1)})<br>$$<br>where $\left|\ \bullet\; \right|_s$ is $s$-th order norm operator.</p>
+    <h1 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h1><h2 id="2-Kirchhoff-Love-Plate-Formulation"><a href="#2-Kirchhoff-Love-Plate-Formulation" class="headerlink" title="2. Kirchhoff-Love Plate Formulation"></a>2. Kirchhoff-Love Plate Formulation</h2><p>In this work, we considered the Kirchhoff-Love plate. Without losing generality, we assumed that the plate is isotropic and homogeneous, the  equilibrium equation has the following form with 4-th order partial derivative:</p>
+<script type="math/tex; mode=display">
+\left\{\begin{array}{l}
+M_{ij,ij}=\bar{q} \;\; \text{in} \; \Omega\\
+-n_{i}M_{ij,j}=\bar{V} \;\; \text{or} \;\; w=\bar{w} \;\; \text{on} \; \Gamma^{}\\
+n_{j}M_{ij}=\bar{M}_{i} \;\; \text{or} \;\; w_{,i}=\bar{w}_{,i} \;\; \text{on} \; \Gamma^{}
+\end{array} \right.\
+\label{strong form}</script><p>in which $\bar{q}$ is a distributed transverse load applied to the plate. $\Omega$, $\Gamma$ are the plate domain and its corresponding boundary of the plate respectively. $n<em>i$ is the $i$-th direction outward normal of boundary. $\bar{V}$, $\bar{M}_j$ are the prescribed distributed shear and moment  per unit area  respectively. $\bar{w}$, $\bar{w}</em>{,i}$ are the prescribed displacement and rotation on boundary. $M_{ij}$ is the bending moment and $w$ is transverse displacement or deflection. With the linear elastic constitutive relation, the bending moment can be rewritten by curvature as:</p>
+<script type="math/tex; mode=display">
+\left\{
+\begin{array}{l}
+M_{11}\\M_{22}\\M_{12}
+\end{array}
+\right\}
+=D\left[
+\begin{matrix}
+1 & \nu & 0 \\
+\nu & 1 & 0 \\
+0 & 0 & (1-\nu)/2
+\end{matrix}
+\right]
+\left\{
+\begin{array}{l}
+w_{,11}\\w_{,22}\\2w_{,12}
+\end{array}
+\right\}
+\label{constitutive relation}</script><p>with the flexural rigidity $D$, which is given by Young’s modulus $E$, Poisson rate $\nu$, and plate thickness $t$ as:</p>
+<script type="math/tex; mode=display">
+D=\frac{Et^{3}}{12(1-\nu^{2})}</script><p>According to the principle of virtual work,  the weak form of Eq. $\ref{strong form}$ is written as:</p>
+<script type="math/tex; mode=display">
+\int_{\Omega}{\delta w_{,ij}M_{ij}d\Omega}=\int_{\Gamma}{\delta w_{,i}\bar{M}_{,i}}d\Gamma+\int_{\Gamma}{\delta w \bar{V}d\Gamma}+\int_{\Omega}{\delta w\bar{q}d\Omega}
+\label{weak form}</script><p>Subsequently, the numerical approximation is introduced into deflection formulation. The approximate virtual deflection denoted by $\delta w^{h}$ and its derivatives are expressed by a combination of shape function and nodal coefficient as:</p>
+<script type="math/tex; mode=display">
+\left\{
+\begin{array}{l}
+\delta w^{h}=\sum_{I=1}^{NP}\Psi_{I}(\boldsymbol{x})\delta d_I \\
+\delta w^{h}_{,i}=\sum_{I=1}^{NP}\Psi_{I,i}(\boldsymbol{x})\delta d_I \\
+\delta w^{h}_{,ij}=\sum_{I=1}^{NP}\Psi_{I,ij}(\boldsymbol{x})\delta d_I
+\end{array}
+\right.
+\label{discretize}</script><p>where $\Psi_I$, $d_I$ are the shape function and nodal coefficient equipped at node $\boldsymbol{x}_I$. $NP$ is the total number of discretized nodes. Pluging Eq. $\ref{discretize}$ into weak form Eq. $\ref{weak form}$ yields the following discrete equations:</p>
+<script type="math/tex; mode=display">
+\int_{\Omega}{\Psi_{I,ij}M_{ij}d\Omega}=\int_{\Gamma}{\Psi_{I,i}\bar{M}_{,i}}d\Gamma+\int_{\Gamma}{\Psi_{I} \bar{V}d\Gamma}+\int_{\Omega}{\Psi_{I}\bar{q}d\Omega}
+\label{discrete equations}</script><p> It’s commonly known that the shape functions we chosen will influence  the accuracy of formulation. There are two important properties of shape functions determining directly the order of formulating accuracy, 1. <strong>Consistency condition</strong>; 2. <strong>Integration constraint</strong>.  To gain more insight of the methodology, we first review the two essential properties.</p>
+<p>The consistency condition makes sure that the shape functions can reproduce the approximant of variable exactly while the exact variable is a polynomial. In this problem, when the virtual deflection is a $n$-th order polynomial, yields:</p>
+<script type="math/tex; mode=display">
+\delta w(\boldsymbol{x})=\boldsymbol{\alpha}^T\boldsymbol{p}^{[n]}(\boldsymbol{x})
+\label{approximant variable}</script><p> where $\boldsymbol{\alpha}$ is a constant parameter vector. $\boldsymbol{p}^{[n]}$ is $n$-th order monomial basis vector as:</p>
+<script type="math/tex; mode=display">
+\boldsymbol{p}^{[n]}(\boldsymbol{x})=
+\{\begin{array}{l}
+1 & x & y & x^2 & xy & ... & y^n
+\end{array}\}^T</script><p>to reproduce the polynomial of virtual deflection, the shape function will be stasified with the consistency condition, which is given by substituting Eq. $\ref{approximant variable}$ into Eq. $\ref{discretize}$ as:</p>
+<script type="math/tex; mode=display">
+\left\{
+\begin{array}{l}
+\sum_{I=1}^{NP}\Psi_{I}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}_{I})=\boldsymbol{p}^{[n]}(\boldsymbol{x})\\
+\sum_{I=1}^{NP}\Psi_{I,i}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}_{I})=\boldsymbol{p}_{,i}^{[n]}(\boldsymbol{x})\\
+\sum_{I=1}^{NP}\Psi_{I,ij}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}_{I})=\boldsymbol{p}_{,ij}^{[n]}(\boldsymbol{x})\\
+\end{array}
+\right.
+\label{consistency condition}</script><p>Meanwhile, integration constraint is the equations for measuring the integration error in Eq. $\ref{discrete equations}$ while the moments are polynomial. Considering both of Eq. $\ref{constitutive relation}$ and Eq. $\ref{approximant variable}$, as the deflection is a $n$-th order polynomial, the moments should be a $(n-2)$-th order polynomial:</p>
+<script type="math/tex; mode=display">
+M_{ij}(\boldsymbol{x})=\boldsymbol{\beta}^T\boldsymbol{p}^{[n-2]}(\boldsymbol{x})
+\label{discretize moment}</script><p>hence the prescrible external force in Eq. $\ref{strong form}$ can be rewritten by Eq. $\ref{discretize moment}$ as:</p>
+<script type="math/tex; mode=display">
+\left\{
+\begin{array}{l}
+\bar{M}_{i}=n_{j}M_{ij}=\boldsymbol{\beta}^Tn_{j}\boldsymbol{p}^{[n-2]}\\
+\bar{V}=-n_{i}M_{ij,j}=-\boldsymbol{\beta}^Tn_{i}\boldsymbol{p}^{[n-2]}_{,j}\\
+\bar{q}=M_{ij,ij}=\boldsymbol{\beta}^T\boldsymbol{p}^{[n-2]}_{,ij}
+\end{array}
+\right.
+\label{exteranl force}</script><p>where $\boldsymbol{\beta}$ is a constant parameter vector as well. Subsquently, the desired integration constraint for thin plate problem can be got by adding Eq. $\ref{exteranl force}$ to Eq. $\ref{discrete equations}$ as:</p>
+<script type="math/tex; mode=display">
+\int_{\Omega}{\Psi_{I,ij}\boldsymbol{p}^{[n-2]}d\Omega}=\int_{\Gamma}{\Psi_{I,i}n_{j}\boldsymbol{p}^{[n-2]}d\Gamma}-\int_{\Gamma}{\Psi_{I} n_{i}\boldsymbol{p}^{[n-2]}_{,j}d\Gamma}+\int_{\Omega}{\Psi_{I}\boldsymbol{p}^{[n-2]}_{,ij}d\Omega}
+\label{integration constraint}</script><p>Consquently, the shape functions satisfied with consistency condition Eq. $\ref{consistency condition}$ and integration constraint Eq. $\ref{integration constraint}$ will achieve $n$-th order accuracy in Kirchhoff-Love plate problem, or equivalently, this formulation error takes the following form:</p>
+<script type="math/tex; mode=display">
+\left\|
+w-w^h
+\right\|_s=O(h^{n+1-s}+h^{2(n-1)})</script><p>where $\left|\ \bullet\; \right|_s$ is $s$-th order norm operator.</p>
 <p>It’s noteworthy that, unlike the conventional elastic or potential problems which contain second order partial derivative, the shape function in thin plate problem no need to follow some specific relationships with its first order derivative individually as shown in integration constraint Eq. $\ref{integration constraint}$. In the next section, <em>the shape functions  and its derivatives will be constructed to meet both consistency condition and integration constraint to achieve a satisfactory accuracy</em>.</p>
-<h2 id="3-Reproducing-Kernel-RK-Approximation"><a href="#3-Reproducing-Kernel-RK-Approximation" class="headerlink" title="3. Reproducing Kernel(RK) Approximation"></a>3. Reproducing Kernel(RK) Approximation</h2><p>In meshfree reproducing kernel approximation,<br>$$<br>\Psi_{I}(\boldsymbol{x})=\boldsymbol{q}^{T}(\boldsymbol{x})<br>\boldsymbol{c}(\boldsymbol{x},\boldsymbol{x}<em>{I})\phi(\boldsymbol{x},\boldsymbol{x}</em>{I})<br>$$<br> where $\boldsymbol{q}$ is a monomial basis vector. $\phi$ is the non-negative kernel function which provide a compact support for shape function. $\boldsymbol{c}$ is correction function determined by satisfying consistency condition or integration constraint.<br>$$<br>\Psi_{I}(\boldsymbol{x})=\boldsymbol{p}^{[n]T}(\boldsymbol{x})<br>\boldsymbol{M}^{-1}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}<em>{I})\phi(\boldsymbol{x},\boldsymbol{x}</em>{I})<br>$$</p>
-<p>$$<br>\boldsymbol{M}=\sum_{I\in supp(\boldsymbol{x})}\boldsymbol{p}^{[n]}(\boldsymbol{x}<em>{I})\boldsymbol{p}^{[n]T}(\boldsymbol{x}</em>{I})\phi(\boldsymbol{x},\boldsymbol{x}_{I})<br>$$</p>
-<p>$$<br>\tilde{\Psi}<em>{I,i}(\boldsymbol{x})=\boldsymbol{p}^{[n]T}</em>{,i}(\boldsymbol{x})<br>\boldsymbol{M}^{-1}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}<em>{I})\phi(\boldsymbol{x},\boldsymbol{x}</em>{I})<br>$$</p>
-<p>$$<br>\hat{\Psi}<em>{I}(\boldsymbol{x})=\boldsymbol{p}^{[n-2]T}(\boldsymbol{x})<br>\hat{\boldsymbol{M}}^{-1}(\boldsymbol{x})\boldsymbol{g}</em>{I}^C<br>(\boldsymbol{x}<em>{I})\phi(\boldsymbol{x},\boldsymbol{x}</em>{I})<br>$$</p>
-<h3 id="3-1-RK-shape-function"><a href="#3-1-RK-shape-function" class="headerlink" title="3.1 RK shape function"></a>3.1 RK shape function</h3><h3 id="3-2-RK-gradient"><a href="#3-2-RK-gradient" class="headerlink" title="3.2 RK gradient"></a>3.2 RK gradient</h3><h2 id="4-2nd-Order-RK-Gradient-Smoothing"><a href="#4-2nd-Order-RK-Gradient-Smoothing" class="headerlink" title="4. 2nd Order RK Gradient Smoothing"></a>4. 2nd Order RK Gradient Smoothing</h2>
+<h2 id="3-Reproducing-Kernel-RK-Approximation"><a href="#3-Reproducing-Kernel-RK-Approximation" class="headerlink" title="3. Reproducing Kernel(RK) Approximation"></a>3. Reproducing Kernel(RK) Approximation</h2><p>In meshfree reproducing kernel approximation, </p>
+<script type="math/tex; mode=display">
+\Psi_{I}(\boldsymbol{x})=\boldsymbol{q}^{T}(\boldsymbol{x})
+\boldsymbol{c}(\boldsymbol{x},\boldsymbol{x}_{I})\phi(\boldsymbol{x},\boldsymbol{x}_{I})</script><p> where $\boldsymbol{q}$ is a monomial basis vector. $\phi$ is the non-negative kernel function which provide a compact support for shape function. $\boldsymbol{c}$ is correction function determined by satisfying consistency condition or integration constraint.</p>
+<script type="math/tex; mode=display">
+\Psi_{I}(\boldsymbol{x})=\boldsymbol{p}^{[n]T}(\boldsymbol{x})
+\boldsymbol{M}^{-1}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}_{I})\phi(\boldsymbol{x},\boldsymbol{x}_{I})</script><script type="math/tex; mode=display">
+\boldsymbol{M}=\sum_{I\in supp(\boldsymbol{x})}\boldsymbol{p}^{[n]}(\boldsymbol{x}_{I})\boldsymbol{p}^{[n]T}(\boldsymbol{x}_{I})\phi(\boldsymbol{x},\boldsymbol{x}_{I})</script><script type="math/tex; mode=display">
+\tilde{\Psi}_{I,i}(\boldsymbol{x})=\boldsymbol{p}^{[n]T}_{,i}(\boldsymbol{x})
+\boldsymbol{M}^{-1}(\boldsymbol{x})\boldsymbol{p}^{[n]}(\boldsymbol{x}_{I})\phi(\boldsymbol{x},\boldsymbol{x}_{I})</script><script type="math/tex; mode=display">
+\hat{\Psi}_{I}(\boldsymbol{x})=\boldsymbol{p}^{[n-2]T}(\boldsymbol{x})
+\hat{\boldsymbol{M}}^{-1}(\boldsymbol{x})\boldsymbol{g}_{I}^C
+(\boldsymbol{x}_{I})\phi(\boldsymbol{x},\boldsymbol{x}_{I})</script><h3 id="3-1-RK-shape-function"><a href="#3-1-RK-shape-function" class="headerlink" title="3.1 RK shape function"></a>3.1 RK shape function</h3><h3 id="3-2-RK-gradient"><a href="#3-2-RK-gradient" class="headerlink" title="3.2 RK gradient"></a>3.2 RK gradient</h3><h2 id="4-2nd-Order-RK-Gradient-Smoothing"><a href="#4-2nd-Order-RK-Gradient-Smoothing" class="headerlink" title="4. 2nd Order RK Gradient Smoothing"></a>4. 2nd Order RK Gradient Smoothing</h2>
   </div>
 </article>
 
@@ -239,7 +326,7 @@
 
 <!-- Baidu Analytics -->
 
-<!-- Disqus Comments -->
+<!-- Disqus Comments --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 
 </body>
