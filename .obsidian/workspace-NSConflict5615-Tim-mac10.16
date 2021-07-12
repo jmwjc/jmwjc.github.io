@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "e623cf060a7089b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a766b3045f3879e7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MFEM/如何查看刚度矩阵与力向量.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f2a4e28ce837ea1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a39acd387586143",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2ae274c70ae261d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "47655b86bdd579a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229
+  },
+  "right": {
+    "id": "6c38ad2845f8482e",
+    "type": "split",
+    "children": [
+      {
+        "id": "47396258a4fca1be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42966f3db65143f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MFEM/如何查看刚度矩阵与力向量.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d9ec6cc802d0ef3e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a766b3045f3879e7",
+  "lastOpenFiles": [
+    "MFEM/如何查看刚度矩阵与力向量.md",
+    "MFEM/MFEM安装与测试.md",
+    "Untitled.md",
+    "bar, beam, plate.md",
+    "elasticity.md",
+    "结构力学/第二章 静定结构.md",
+    "结构力学/第三章 静定结构的影响线.md",
+    "结构力学/第四章 力法.md",
+    "结构力学/第五章 位移法.md",
+    "结构力学/第一章 结构和荷载的分类.md"
+  ]
+}

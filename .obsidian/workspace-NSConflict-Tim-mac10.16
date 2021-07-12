@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "e623cf060a7089b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0d8d0c9288704ef",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "bar, beam, plate.md",
+            "mode": "source"
+          }
+        },
+        "group": "6e1bfbaf412388e2"
+      },
+      {
+        "id": "5a30bdba251becbd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "bar, beam, plate.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6e1bfbaf412388e2"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f2a4e28ce837ea1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a39acd387586143",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2ae274c70ae261d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "47655b86bdd579a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229
+  },
+  "right": {
+    "id": "6c38ad2845f8482e",
+    "type": "split",
+    "children": [
+      {
+        "id": "47396258a4fca1be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42966f3db65143f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "bar, beam, plate.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d9ec6cc802d0ef3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f0d8d0c9288704ef",
+  "lastOpenFiles": [
+    "bar, beam, plate.md",
+    "elasticity.md",
+    "Untitled.md",
+    "结构力学/第二章 静定结构.md",
+    "结构力学/第三章 静定结构的影响线.md",
+    "结构力学/第四章 力法.md",
+    "结构力学/第五章 位移法.md",
+    "结构力学/第一章 结构和荷载的分类.md",
+    "generalized reproducing kernel gradient smoothing integration.md",
+    "Exercises 1.md"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "e623cf060a7089b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "da4df85f50ad8904",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MFEA/3D bar element.md",
+            "mode": "preview"
+          }
+        },
+        "group": "ca9e31cb38cc7e99"
+      },
+      {
+        "id": "1524d7e166f92f6a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MFEA/3D bar element.md",
+            "mode": "source"
+          }
+        },
+        "group": "ca9e31cb38cc7e99"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f2a4e28ce837ea1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a39acd387586143",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2ae274c70ae261d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "47655b86bdd579a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229
+  },
+  "right": {
+    "id": "6c38ad2845f8482e",
+    "type": "split",
+    "children": [
+      {
+        "id": "47396258a4fca1be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42966f3db65143f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MFEA/3D bar element.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d9ec6cc802d0ef3e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1524d7e166f92f6a",
+  "lastOpenFiles": [
+    "MFEA/3D bar element.md",
+    "Newtonian Mechanics.md",
+    "Discontinuous element.md",
+    "elasticity.md",
+    "Curvilinear Coordinates.md",
+    "Meshfree approxiamtion.md",
+    "Untitled.md",
+    "Phase field model.md",
+    "未命名.md",
+    "A sample guide for Abaqus.md"
+  ]
+}
