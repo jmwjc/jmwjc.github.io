@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MFEA/3D bar element.md",
+            "file": "mechanics/bar, beam, plate.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MFEA/3D bar element.md",
+            "file": "mechanics/bar, beam, plate.md",
             "mode": "source"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MFEA/3D bar element.md",
+                "file": "mechanics/bar, beam, plate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,8 +107,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1524d7e166f92f6a",
+  "active": "da4df85f50ad8904",
   "lastOpenFiles": [
+    "bar, beam, plate.md",
     "MFEA/3D bar element.md",
     "Newtonian Mechanics.md",
     "Discontinuous element.md",
@@ -117,7 +118,6 @@
     "Meshfree approxiamtion.md",
     "Untitled.md",
     "Phase field model.md",
-    "未命名.md",
-    "A sample guide for Abaqus.md"
+    "未命名.md"
   ]
 }
