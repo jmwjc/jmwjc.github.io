@@ -9,23 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mechanics/bar, beam, plate.md",
+            "file": "Daily logs/Augest 2021.md",
             "mode": "preview"
           }
-        },
-        "group": "ca9e31cb38cc7e99"
-      },
-      {
-        "id": "1524d7e166f92f6a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "mechanics/bar, beam, plate.md",
-            "mode": "source"
-          }
-        },
-        "group": "ca9e31cb38cc7e99"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mechanics/bar, beam, plate.md",
+                "file": "Daily logs/Augest 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,15 +96,15 @@
   },
   "active": "da4df85f50ad8904",
   "lastOpenFiles": [
-    "bar, beam, plate.md",
-    "MFEA/3D bar element.md",
-    "Newtonian Mechanics.md",
-    "Discontinuous element.md",
-    "elasticity.md",
-    "Curvilinear Coordinates.md",
-    "Meshfree approxiamtion.md",
     "Untitled.md",
-    "Phase field model.md",
-    "未命名.md"
+    "Exercises 1.md",
+    "结构力学/Syllabus.md",
+    "MFEA/Implement for meshfree shape functions.md",
+    "MFEA/3D bar element.md",
+    "math/Curvilinear Coordinates.md",
+    "mechanics/bar, beam, plate.md",
+    "bar, beam, plate.md",
+    "Newtonian Mechanics.md",
+    "Discontinuous element.md"
   ]
 }
