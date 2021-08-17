@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily logs/Augest 2021.md",
+            "file": "mechanics/elasticity.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Done",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,14 +68,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily logs/Augest 2021.md",
+                "file": "mechanics/elasticity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -91,20 +91,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 233
   },
   "active": "da4df85f50ad8904",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Exercises 1.md",
-    "结构力学/Syllabus.md",
-    "MFEA/Implement for meshfree shape functions.md",
-    "MFEA/3D bar element.md",
-    "math/Curvilinear Coordinates.md",
+    "mechanics/elasticity.md",
+    "mechanics/Kinematics.md",
+    "research/A New Way for Testing Galerkin Methods.md",
+    "Navigation/Research.md",
+    "mechanics/Newtonian Mechanics.md",
+    "mechanics/Phase field model.md",
+    "mechanics/Curved beam.md",
     "mechanics/bar, beam, plate.md",
-    "bar, beam, plate.md",
-    "Newtonian Mechanics.md",
-    "Discontinuous element.md"
+    "Untitled.md",
+    "MFEA/Implement for meshfree shape functions.md"
   ]
 }
