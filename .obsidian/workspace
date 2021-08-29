@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mechanics/elasticity.md",
-            "mode": "preview"
+            "file": "How to take the nodes?.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mechanics/elasticity.md",
+                "file": "How to take the nodes?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,6 +95,7 @@
   },
   "active": "da4df85f50ad8904",
   "lastOpenFiles": [
+    "Untitled.md",
     "mechanics/elasticity.md",
     "mechanics/Kinematics.md",
     "research/A New Way for Testing Galerkin Methods.md",
@@ -103,7 +104,6 @@
     "mechanics/Phase field model.md",
     "mechanics/Curved beam.md",
     "mechanics/bar, beam, plate.md",
-    "Untitled.md",
     "MFEA/Implement for meshfree shape functions.md"
   ]
 }
