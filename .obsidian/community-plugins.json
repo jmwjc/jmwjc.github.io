@@ -1,4 +1,6 @@
 [
   "table-editor-obsidian",
-  "obsidian-latex"
+  "obsidian-latex",
+  "templater-obsidian",
+  "obsidian-autocomplete-plugin"
 ]

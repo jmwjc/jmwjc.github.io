@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "da4df85f50ad8904",
+        "id": "ed21660021cf0a93",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "How to take the nodes?.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -93,17 +93,17 @@
     "direction": "horizontal",
     "width": 233
   },
-  "active": "da4df85f50ad8904",
+  "active": "ed21660021cf0a93",
   "lastOpenFiles": [
-    "Untitled.md",
-    "mechanics/elasticity.md",
-    "mechanics/Kinematics.md",
-    "research/A New Way for Testing Galerkin Methods.md",
-    "Navigation/Research.md",
-    "mechanics/Newtonian Mechanics.md",
-    "mechanics/Phase field model.md",
-    "mechanics/Curved beam.md",
-    "mechanics/bar, beam, plate.md",
-    "MFEA/Implement for meshfree shape functions.md"
+    "How to take the nodes?.md",
+    "Plugins for Obsidian.md",
+    "Obsidian.md",
+    "Literature/Exercises 1.md",
+    "未命名.md",
+    "MFEA/Approximation.md",
+    "MFEA/Constant strain element.md",
+    "MFEA/3D bar element.md",
+    "Exercises 1.md",
+    "mechanics/elasticity.md"
   ]
 }
