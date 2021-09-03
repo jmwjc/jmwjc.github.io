@@ -12,7 +12,8 @@
     "nabla",
     "Christoffel",
     "Timoshenko",
-    "meshfree"
+    "meshfree",
+    "Todolist"
   ],
   "fileSortOrder": "alphabetical",
   "pdfExportSettings": {
@@ -22,5 +23,7 @@
     "downscalePercent": 100
   },
   "defaultViewMode": "preview",
-  "foldIndent": true
+  "foldIndent": true,
+  "foldHeading": false,
+  "alwaysUpdateLinks": true
 }

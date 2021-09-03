@@ -1,4 +1,3 @@
-#Done
 The Galerkin methods can be expressed as following problem:
 $$
 a(v,u) = f(v),\quad \forall v \in V

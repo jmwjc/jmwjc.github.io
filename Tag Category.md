@@ -1,0 +1,25 @@
+# Tags
+- 💭  : The contents still had some questions.
+- 💡  : The contents can dig deeper or a good idea.
+- ❗️  : The contents had not finished or remained some problems.
+- ✏️  : The contents waited for reviewing or rewriting.
+- 🌲  : 班级
+- 📐  : 毕业设计
+- 🎓  : 答辩秘书
+- 📝  : 好词好句
+- 🏗. : 结构力学
+# File Types
+- 🏷  : Tag navigation
+- 📌  : 看板
+- @  :Homepage
+- ➤  : 文献
+- ❖
+- ★
+- ✣
+- ❤︎
+- ◆
+- ✸
+- ❡
+- ∞
+- ♠️
+- ♣️

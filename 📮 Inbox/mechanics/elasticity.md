@@ -1,4 +1,3 @@
-#done
 # Elasticity
 ## Constitutive Relationship
 

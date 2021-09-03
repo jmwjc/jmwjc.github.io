@@ -1,5 +1,14 @@
 [
   "table-editor-obsidian",
   "obsidian-latex",
-  "obsidian-autocomplete-plugin"
+  "obsidian-autocomplete-plugin",
+  "obsidian-indent-lines",
+  "templater-obsidian",
+  "obsidian-git",
+  "obsidian-relative-line-numbers",
+  "dataview",
+  "metaedit",
+  "obsidian-kanban",
+  "tag-wrangler",
+  "obsidian-outliner"
 ]

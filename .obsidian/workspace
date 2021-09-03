@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "da4df85f50ad8904",
+        "id": "f3247193afa66af6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "How to take the nodes?.md",
+            "file": "Plugins for Zotero.md",
             "mode": "source"
           }
         }
@@ -42,9 +42,20 @@
                 "query": "tag:#❗️",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7100f2d895e52295",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -69,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to take the nodes?.md",
+                "file": "Plugins for Zotero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,6 +98,14 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "d0b2c165ca01c145",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ]
       }
@@ -94,17 +113,17 @@
     "direction": "horizontal",
     "width": 233
   },
-  "active": "da4df85f50ad8904",
+  "active": "f3247193afa66af6",
   "lastOpenFiles": [
+    "Plugins for Zotero.md",
+    "Plugins for Obsidian.md",
     "How to take the nodes?.md",
-    "Untitled.md",
-    "mechanics/elasticity.md",
-    "mechanics/Kinematics.md",
-    "research/A New Way for Testing Galerkin Methods.md",
-    "Navigation/Research.md",
-    "mechanics/Newtonian Mechanics.md",
-    "mechanics/Phase field model.md",
-    "mechanics/Curved beam.md",
-    "mechanics/bar, beam, plate.md"
+    "Templates/Zotero Metadata Template.md",
+    "📮 Inbox/➤ wu2021accuracy-zotero.md",
+    "Tag Category.md",
+    "未命名.md",
+    "shellRKGSI.md",
+    "📮 Inbox/➤wu2021accuracy-zotero.md",
+    "📮 Inbox/➤wang2019inherently-zotero.md"
   ]
 }
