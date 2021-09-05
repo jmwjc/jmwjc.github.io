@@ -10,6 +10,3 @@ Date:
 * [Local library](zotero://select/items/1_ZDRKJGQ3)
 * DOI: [10.1016/j.cma.2020.113631](https://doi.org/10.1016/j.cma.2020.113631)
 * Topics: [[discontinuous Galerkin]], [[My Publications]]
-* Related: [[➤ wang2019inherently]]
-
----

@@ -6,15 +6,9 @@ Firstly, I want to rise a habit of taking notes, to help me thinking or organizi
 - **How to schedule my daily life?** I want to immediately know what am I going to do as I begin to work, and stop it whenever another staff interrupt me.
 
 All of the notes will be created with a convenient searching mode, I am going to design a system of tagging every notes for a quickly access. The obsidian provides 3 different ways regarded as the key words for searching, i.e. tags, titles and links.  @Bryan Jenks provides a detail [Tag Taxonomy](https://publish.obsidian.md/bryan-jenks/Tag+Taxonomy) for systematically tagging.
-As referring to the @Bryan Jenks's system, The tags is represented as a *status* of notes. Tags can sign where you want to tag, the following tags are initially proposed:
-- #💭: The contents still had some questions.
-- #💡: The contents can dig deeper or a good idea.
-- #❗️: The contents had not finished or remained some problems.
-- #✏️: The contents waited for reviewing or rewriting.
-- #❗️ How to define the priority?
-The detail tags mapping is listed in [[Tag Category]] 
+As referring to the @Bryan Jenks's system, The tags is represented as a *status* of notes.The detail tags mapping is listed in [[✱ Tag Category]] 
 The priority of tags will be represented by the color circles:
-	- 🔴  : urgent, should do immediately as you begin to work.
+#❗️ 	- 🔴  : urgent, should do immediately as you begin to work.
 	
 ## Knowledge management 
 The knowledge management contain two parts. The one is my knowledge wiki, where some theorems and methodologies will list in it. Firstly, 
@@ -32,8 +26,8 @@ The titles of notes can contain some meta notions to categorize the types, for n
 
 ## Daily Todolist
 #❗️ [Obsidian Trello](https://github.com/OfficerHalf/obsidian-trello/)
-## Test report
-
+## ∞ Test report
+The notion for test/derivation report is ∞, I designate a [[∞ Frontmatter Template]], and wish it can work properly for [[✱ Plugins for Obsidian#Dataview|Dataview]]  
 ## Collections of good sentences for improving writing skill
 ---
 **Related**:

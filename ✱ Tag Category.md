@@ -2,7 +2,8 @@
 - 💭  : The contents still had some questions.
 - 💡  : The contents can dig deeper or a good idea.
 - ❗️  : The contents had not finished or remained some problems.
-- ✏️  : The contents waited for reviewing or rewriting.
+- ✏️  : The contents waited to be continuous.
+-  📝 : The contents waited for summarize.
 - 🌲  : 班级
 - 📐  : 毕业设计
 - 🎓  : 答辩秘书
@@ -13,13 +14,17 @@
 - 📌  : 看板
 - @  :Homepage
 - ➤  : 文献
-- ❖
+- ❖ : Personal Wiki
+- ✱  : Configuration
 - ★
 - ✣
 - ❤︎
 - ◆
 - ✸
 - ❡
-- ∞
+- ∞  : 草稿/推导
 - ♠️
 - ♣️
+- ᝢ  : Dataview
+- § : 课程/教学
+- ‡ :

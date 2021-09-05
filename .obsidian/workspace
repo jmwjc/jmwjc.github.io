@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f3247193afa66af6",
+        "id": "ff376c0f9bea3170",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Plugins for Zotero.md",
+            "file": "Templates/☾ Daily Log This MonthTemplate.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#❗️",
+                "query": "✱",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Plugins for Zotero.md",
+                "file": "Templates/☾ Daily Log This MonthTemplate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,23 +106,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 233
+    "width": 233,
+    "collapsed": true
   },
-  "active": "f3247193afa66af6",
+  "active": "ff376c0f9bea3170",
   "lastOpenFiles": [
-    "Plugins for Zotero.md",
-    "Plugins for Obsidian.md",
-    "How to take the nodes?.md",
-    "Templates/Zotero Metadata Template.md",
-    "📮 Inbox/➤ wu2021accuracy-zotero.md",
-    "Tag Category.md",
-    "未命名.md",
-    "shellRKGSI.md",
-    "📮 Inbox/➤wu2021accuracy-zotero.md",
-    "📮 Inbox/➤wang2019inherently-zotero.md"
+    "Templates/☾ Daily Log This MonthTemplate.md",
+    "Templates/∞ Frontmatter Template.md",
+    "Untitled.md",
+    "✱ Tag Category.md",
+    "✱ Plugins for Zotero.md",
+    "Templates/✱ Insert Warning Log Template.md",
+    "📮 Inbox/MFEA/3D bar element.md",
+    "📮 Inbox/MFEA/Approximation.md",
+    "📌  看板.md",
+    "shellRKGSI.md"
   ]
 }

@@ -1,10 +1,11 @@
 ---
-tags:{{}}
+Title: 
+Tags:{{}}
 Rating:
-Date:
+Year:
 ---
  {{title}}
-{{tp_last_modify_date}}
+ {{journal}}
 {{author}}
 {{itemType}}
 {{tags}}

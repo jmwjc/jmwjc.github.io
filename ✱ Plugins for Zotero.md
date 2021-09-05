@@ -6,7 +6,7 @@
 >[auth:lower][year][veryshorttitle:lower]
 # [Mdnotes](https://github.com/argenos/zotero-mdnotes)
 - Create md from annotations extracted by ZotFile.
-	- Add a prefix ➤ (a space exists after notion) before the title to prescribe the file type, the detail meaning of emojis can be find in [[Tag Category]].
+	- Add a prefix ➤ (a space exists after notion) before the title to prescribe the file type, the detail meaning of emojis can be find in [[✱ Tag Category]].
 - [[Zotero Metadata Template]]
 - #❗️ [[Zotero Metadata Template]]: modify the {{tags}}, {{authors}}, {{yamlmetadata}}
 # [Zutilo](https://github.com/wshanks/Zutilo)
