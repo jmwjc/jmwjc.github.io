@@ -7,4 +7,5 @@ Logs:
 <% tp.file.cursor(3) %>
 - #❗️ (2021-09-05) 模版设计
 	- [ ] 参考Dataview，详细设计模版
+	- [ ] 什么东西放在metadata， 什么东西放在正文的frontmatter。
 ---

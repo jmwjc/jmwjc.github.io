@@ -45,14 +45,45 @@ $$
 
 $$
 \begin{align}
-    u_{,x} &= -\frac{1}{2A}(u_{,1} D_{11} + u_{,2} D_{12}) \\
-    u_{,y} &= -\frac{1}{2A}(u_{,1} D_{21} + u_{,2} D_{22})
+    u_{,x} &= -\frac{1}{2A}(a_1 D_{11} + a_2 D_{12}) \\
+    u_{,y} &= -\frac{1}{2A}(a_1 D_{21} + a_2 D_{22})
 \end{align}
 $$
 $$
 u = N_1(\bm{\xi}) b_1 + N_2(\bm{\xi}) b_2 + N_3(\bm{\xi}) b_3
 $$
 
+- #❗️  (2021-09-06) 还没推到完成
 $$
-test
+\begin{Bmatrix}
+    N_1 \\ N_2 \\ N_3
+\end{Bmatrix} =
+\begin{Bmatrix}
+    b_{10} + b_{11} \xi_1 + b_{12} \xi_2 \\
+    b_{20} + b_{21} \xi_1 + b_{22} \xi_2 \\
+    b_{30} + b_{31} \xi_1 + b_{32} \xi_2
+\end{Bmatrix} 
+$$
+总共9个未知数，单位分解性和对称性可得：
+$$
+\begin{align}
+    b_{10} &= b_{20} = b_{30} = \frac{1}{3} \\
+    b_{11} &= b_{22} \\
+    b_{12} &= b_{21} \\
+
+\end{align}
+$$
+
+$$
+\bm{K} = 
+\begin{Bmatrix}
+    \delta a_1 \\ \delta a_2
+\end{Bmatrix} 
+\begin{bmatrix}
+    D_{11}^2 & D_{11}D_{12} \\
+    D_{12}D_{22} & D_{22}^2
+\end{bmatrix} 
+\begin{Bmatrix}
+    a_1 \\ a_2
+\end{Bmatrix}
 $$

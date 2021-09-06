@@ -29,6 +29,16 @@ The titles of notes can contain some meta notions to categorize the types, for n
 ## ∞ Test report
 The notion for test/derivation report is ∞, I designate a [[∞ Frontmatter Template]], and wish it can work properly for [[✱ Plugins for Obsidian#Dataview|Dataview]]  
 ## Collections of good sentences for improving writing skill
+## Workflow of project management with students
+```mermaid
+flowchart TD
+	s1[Introduce/Teach related new theory to student] 
+	s1 --> s2[List 3-6 tasks to student] 
+	s2 --> s3{Whether 40% tasks finished or not?}
+	s3 --> |Yes| s1
+	s3 --> |No| s4[Find the problem, design a scheme to resolve it and modify the task list.]
+	s4 --> s3
+```
 ---
 **Related**:
 [[Obsidian]]

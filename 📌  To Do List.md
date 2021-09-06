@@ -1,0 +1,3 @@
+```dataview
+task from "📮 Inbox"
+```
