@@ -7,7 +7,8 @@ Last modify data: <%+ tp.file.last_modified_date() %>
 Logs: 
 -  #❗️ (2021-09-05) Initial derivation
 	- [ ] Check the possibility for local error of triangular element
-
+- #❗️ (2021-09-06) Assume a simply form of shape function
+	- [ ] $N_i = c_0 + c_1 \xi_i$
 ---
 $$
 \int_\Omega v_{,i} u_{,i} d\Omega = \int_\Gamma v u_{,i} n_i d\Gamma - \int_\Omega v u_{,ii} d\Omega
@@ -44,46 +45,86 @@ $$
 $$
 
 $$
-\begin{align}
-    u_{,x} &= -\frac{1}{2A}(a_1 D_{11} + a_2 D_{12}) \\
-    u_{,y} &= -\frac{1}{2A}(a_1 D_{21} + a_2 D_{22})
-\end{align}
-$$
-$$
-u = N_1(\bm{\xi}) b_1 + N_2(\bm{\xi}) b_2 + N_3(\bm{\xi}) b_3
+u^h = N_1(\bm{\xi}) b_1 + N_2(\bm{\xi}) b_2 + N_3(\bm{\xi}) b_3
 $$
 
-- #❗️  (2021-09-06) 还没推到完成
 $$
 \begin{Bmatrix}
     N_1 \\ N_2 \\ N_3
 \end{Bmatrix} =
 \begin{Bmatrix}
-    b_{10} + b_{11} \xi_1 + b_{12} \xi_2 \\
-    b_{20} + b_{21} \xi_1 + b_{22} \xi_2 \\
-    b_{30} + b_{31} \xi_1 + b_{32} \xi_2
+    c_{10} + c_{11} \xi_1 + c_{12} \xi_2 \\
+    c_{20} + c_{21} \xi_1 + c_{22} \xi_2 \\
+    c_{30} + c_{31} \xi_1 + c_{32} \xi_2
 \end{Bmatrix} 
 $$
-总共9个未知数，单位分解性和对称性可得：
+
+$$
+\begin{bmatrix}
+    N_{1,1} & N_{1,2}\\ N_{2,1} & N_{2,2} \\ N_{3,1} & N_{3,2}
+\end{bmatrix} =
+\begin{bmatrix}
+    c_{11} & c_{12} \\
+    c_{21} & c_{22} \\
+    c_{31} & c_{32}
+\end{bmatrix} 
+$$
+
 $$
 \begin{align}
-    b_{10} &= b_{20} = b_{30} = \frac{1}{3} \\
-    b_{11} &= b_{22} \\
-    b_{12} &= b_{21} \\
-
+    u_{,x}^h &= -\frac{1}{2A}(b_1 c_{11} + b_2 c_{21} + b_3 c_{31}) \\
+    u_{,y}^h &= -\frac{1}{2A}(b_1 c_{12} + b_2 c_{22} + b_3 c_{32})
 \end{align}
 $$
 
 $$
-\bm{K} = 
+\int_\Omega v_{,x}^h u_{,x}^h d\Omega = \frac{1}{4A}
 \begin{Bmatrix}
-    \delta a_1 \\ \delta a_2
+    \delta b_1 \\ \delta b_2 \\ \delta b_3
 \end{Bmatrix} 
 \begin{bmatrix}
-    D_{11}^2 & D_{11}D_{12} \\
-    D_{12}D_{22} & D_{22}^2
+    c_{11}^2 & c_{11}c_{21} & c_{11}c_{31}\\
+    c_{21}c_{11} & c_{21}^2 & c_{21}c_{31} \\
+    c_{31}c_{11} & c_{31}c_{21} & c_{31}^2
 \end{bmatrix} 
 \begin{Bmatrix}
-    a_1 \\ a_2
+    b_1 \\ b_2 \\ b_3
 \end{Bmatrix}
 $$
+
+$$
+\int_\Omega v u_{,xx} d\Omega =
+\begin{Bmatrix}
+    \delta b_1 \\ \delta b_2 \\ \delta b_3
+\end{Bmatrix} 
+$$
+
+$$
+\int_\Gamma v u_{,x} d\Gamma = 
+\begin{Bmatrix}
+    \delta b_1 \\ \delta b_2 \\ \delta b_3
+\end{Bmatrix} \int_\Gamma 
+\begin{Bmatrix}
+    N_1 u_{,x} n_x \\
+    N_2 u_{,x} n_x \\
+    N_3 u_{,x} n_x 
+\end{Bmatrix} d\Gamma =
+\begin{Bmatrix}
+    \delta b_1 \\ \delta b_2 \\ \delta b_3
+\end{Bmatrix} 
+\left (
+\int_\Gamma 
+\begin{Bmatrix}
+    c_{10} \\
+    c_{20} \\
+    c_{30} 
+\end{Bmatrix} u_{,x} n_x d\Gamma + \int_\Gamma 
+\begin{Bmatrix}
+    c_{11} \xi_1 \\
+    c_{22} \xi_2 \\
+    c_{33} \xi_3
+\end{Bmatrix} u_{,x} n_x d\Gamma
+\right )
+$$
+
+---
