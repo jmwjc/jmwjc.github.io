@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ff376c0f9bea3170",
+        "id": "54e1da3f7894bfe8",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:∞",
+                "query": "tag:#❗️",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -108,25 +108,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233,
-    "collapsed": true
+    "width": 233
   },
-  "active": "ff376c0f9bea3170",
+  "active": "54e1da3f7894bfe8",
   "lastOpenFiles": [
     "📮 Inbox/∞ Derivation of linear triangular domain.md",
-    "📌  To Do List.md",
-    "📮 Inbox/MFEA/3D bar element.md",
-    "Templates/☾ Daily Log This MonthTemplate.md",
-    "Templates/∞ Frontmatter Template.md",
-    "Untitled.md",
-    "✱ Tag Category.md",
     "✱ Plugins for Zotero.md",
-    "Templates/✱ Insert Warning Log Template.md",
-    "📮 Inbox/MFEA/Approximation.md"
+    "📌  To Do List.md",
+    "How to take the notes?.md",
+    "图床配置.md",
+    "📮 Inbox/shellRKGSI.md",
+    "Templates/☾ Daily Log Today Template.md",
+    "📌  看板.md",
+    "Templates/✱  Insert Review Template.md",
+    "Templates/✱ Insert Warning Log Template.md"
   ]
 }

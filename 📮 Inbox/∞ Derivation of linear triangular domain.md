@@ -128,3 +128,29 @@ $$
 $$
 
 ---
+
+$$
+\begin{Bmatrix}
+    N_1 \\ N_2 \\ N_3
+\end{Bmatrix} = 
+\begin{Bmatrix}
+    c_0 + c_1 \xi_1 \\ c_0 + c_1 \xi_2 \\ c_0 + c_1 \xi_3
+\end{Bmatrix} 
+$$
+
+$$
+\begin{bmatrix}
+    N_{1,1} & N_{1,2} \\
+    N_{2,1} & N_{2,2} \\
+    N_{3,1} & N_{3,2}
+\end{bmatrix} = 
+\begin{bmatrix}
+    c_1  & 0 \\
+    0    & c_2 \\
+    -c_1 & -c_1
+\end{bmatrix} 
+$$
+
+$$
+\bm{K} = \int_\Omega v_{,x} u_{,x} d\Omega = 
+$$
