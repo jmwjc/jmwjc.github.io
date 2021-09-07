@@ -16,7 +16,7 @@
 - ➤  : 文献
 - ❖ : Personal Wiki
 - ✱  : Configuration
-- ★
+- ★ : Writing skill
 - ✣
 - ❤︎
 - ◆

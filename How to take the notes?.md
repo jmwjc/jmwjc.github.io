@@ -27,7 +27,7 @@ The titles of notes can contain some meta notions to categorize the types, for n
 ## Daily Todolist
 #❗️ [Obsidian Trello](https://github.com/OfficerHalf/obsidian-trello/)
 ## ∞ Test report
-The notion for test/derivation report is ∞, I designate a [[∞ Frontmatter Template]], and wish it can work properly for [[✱ Plugins for Obsidian#Dataview|Dataview]]  
+The notion for test/derivation report is ∞, I designate a [[∞  Frontmatter Template]], and wish it can work properly for [[✱ Plugins for Obsidian#Dataview|Dataview]]  
 ## Collections of good sentences for improving writing skill
 ## Workflow of project management with students
 ```mermaid
