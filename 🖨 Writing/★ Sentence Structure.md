@@ -1,9 +1,5 @@
 # Key 
-- **bold** -> subject
-- <u>underline</u> -> verb
-- *italics* -> object
-- regular -> prepositional phrase.
-- <mark style="background-color: yellow">Yellow</mark> -> independent clause
+- <mark style="background-color: yellow">subject</mark>
 - <mark style="background-color: lightblue">lightblue</mark>-> dependent clause
 - <mark style="background-color: lightgreen">lightgreen</mark>-> coordinating conjunction
 - <mark style="background-color: pink">pink</mark> -> comma

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "✱ Customized Hotkeys.md",
+            "file": "🖨 Writing/★ Sentence Structure.md",
             "mode": "source"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✱ Customized Hotkeys.md",
+                "file": "🖨 Writing/★ Sentence Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,9 +116,9 @@
   },
   "active": "ff376c0f9bea3170",
   "lastOpenFiles": [
+    "🖨 Writing/★ Sentence Structure.md",
     "✱ Customized Hotkeys.md",
     "Templates/∞ Frontmatter Template.md",
-    "🖨 Writing/★ Sentence Structure.md",
     "Templates/✱ Insert Warning Log Template.md",
     "Templates/★ Color Block Template.md",
     "✱ Plugins for Obsidian.md",
