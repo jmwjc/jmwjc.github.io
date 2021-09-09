@@ -25,5 +25,6 @@
   "defaultViewMode": "preview",
   "foldIndent": true,
   "foldHeading": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
 }

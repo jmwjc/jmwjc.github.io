@@ -6,9 +6,9 @@
 # Kanban
 # Obsidian Git
 # Outliner
+# [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
 - #❗️ **MetaEdit**
 - #❗️ **QuickAdd**
-- #❗️ **Excalidraw**
 - #❗️ **Admonition**
 # [Templater](https://silentvoid13.github.io/Templater/docs/)
 Some usefule code:

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ff376c0f9bea3170",
+        "id": "85b4dc0664374760",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🖨 Writing/★ Sentence Structure.md",
+            "file": "★ Verb.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag",
+                "query": "tag:#❗️",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🖨 Writing/★ Sentence Structure.md",
+                "file": "★ Verb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +106,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233,
-    "collapsed": true
+    "width": 233
   },
-  "active": "ff376c0f9bea3170",
+  "active": "85b4dc0664374760",
   "lastOpenFiles": [
+    "未命名.md",
     "🖨 Writing/★ Sentence Structure.md",
-    "✱ Customized Hotkeys.md",
-    "Templates/∞ Frontmatter Template.md",
-    "Templates/✱ Insert Warning Log Template.md",
-    "Templates/★ Color Block Template.md",
-    "✱ Plugins for Obsidian.md",
-    "✱ Plugins for Zotero.md",
+    "📮 Inbox/🏗  结构力学/§ 第七章 位移法.md",
+    "Excalidraw/Drawing 2021-09-09 11.16.05.excalidraw.md",
     "✱ Tag Category.md",
-    "Templates/☾ Daily Log This MonthTemplate.md",
-    "📮 Inbox/∞ Derivation of linear triangular domain.md"
+    "✱ Plugins for Obsidian.md",
+    "§ 第七章 位移法.md",
+    "Templates/✱  Insert Review Template.md",
+    "✱ Customized Hotkeys.md",
+    "2021-09-08.md"
   ]
 }
