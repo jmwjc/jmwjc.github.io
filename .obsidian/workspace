@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "★ Verb.md",
+            "file": "📮 Inbox/🏗  结构力学/§ 第七章 位移法.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "30d9cc40ad58fc98"
+      },
+      {
+        "id": "a3afff3f5897162d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "📮 Inbox/🏗  结构力学/§ 第七章 位移法.md",
+            "mode": "preview"
+          }
+        },
+        "group": "30d9cc40ad58fc98"
       }
     ],
     "direction": "vertical"
@@ -79,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "★ Verb.md",
+                "file": "📮 Inbox/🏗  结构力学/§ 第七章 位移法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +127,15 @@
   },
   "active": "85b4dc0664374760",
   "lastOpenFiles": [
-    "未命名.md",
-    "🖨 Writing/★ Sentence Structure.md",
     "📮 Inbox/🏗  结构力学/§ 第七章 位移法.md",
     "Excalidraw/Drawing 2021-09-09 11.16.05.excalidraw.md",
+    "📮 Inbox/🏗  结构力学/Syllabus.md",
+    "2021-09-08.md",
+    "★ Verb.md",
+    "未命名.md",
+    "🖨 Writing/★ Sentence Structure.md",
     "✱ Tag Category.md",
     "✱ Plugins for Obsidian.md",
-    "§ 第七章 位移法.md",
-    "Templates/✱  Insert Review Template.md",
-    "✱ Customized Hotkeys.md",
-    "2021-09-08.md"
+    "§ 第七章 位移法.md"
   ]
 }
