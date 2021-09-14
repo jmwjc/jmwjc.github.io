@@ -20,3 +20,5 @@ The hotkeys of this plugin cannot work properly, I change `opt` -> `^` to make i
 - #❗️ (2021-09-05) Make dataview for the following:
 	- [ ] Derivation
 	- [ ] Course 
+
+# [oz-image-in-editor](https://github.com/ozntel/oz-image-in-editor-obsidian)
