@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2a1f67f83097c8bf",
+        "id": "2eab6f30cd995a1d",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "Excalidraw/❅ Drawing 2021-09-14 22.33.45.excalidraw.md"
+            "file": "📮 Inbox/mechanics/Phase field model.md",
+            "mode": "source"
           }
         }
       }
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/❅ Drawing 2021-09-14 22.33.45.excalidraw.md",
+                "file": "📮 Inbox/mechanics/Phase field model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,17 +121,17 @@
     "direction": "horizontal",
     "width": 362
   },
-  "active": "2a1f67f83097c8bf",
+  "active": "2eab6f30cd995a1d",
   "lastOpenFiles": [
-    "Excalidraw/❅ Drawing 2021-09-14 22.33.45.excalidraw.md",
-    "Excalidraw/❅ Template.excalidraw.md",
-    "Excalidraw/Drawing 2021-09-09 11.16.05.excalidraw.md",
+    "📮 Inbox/mechanics/Phase field model.md",
     "📮 Inbox/🏗  结构力学/§ 第七章 位移法.md",
+    "Excalidraw/Drawing 2021-09-09 11.16.05.excalidraw.md",
+    "📮 Inbox/🏗  结构力学/§ Syllabus.md",
+    "§ 结构力学目录.md",
     "✱ Plugins for Obsidian.md",
-    "Excalidraw/❅ Drawing 2021-09-14 22.21.21.excalidraw.md",
-    "🖨 Writing/★ Sentence Structure.md",
-    "2021-09-08.md",
     "📌  To Do List.md",
-    "🖨 Writing/★ Verb.md"
+    "📌  看板.md",
+    "Untitled.md",
+    "📮 Inbox/☾ 2021 Daily Logs.md"
   ]
 }

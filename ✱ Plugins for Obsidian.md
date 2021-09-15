@@ -16,7 +16,7 @@ Some usefule code:
 - <%+ tp.file.last_modified_date() %>: Print Last modified date.
 The hotkeys of this plugin cannot work properly, I change `opt` -> `^` to make it work, the detail hotkey setting is list [[✱ Customized Hotkeys|here]].
 - #❗️ [Tonight](https://zhuanlan.zhihu.com/p/308612160)
-# [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+# [Dataview](https://blacksmithgu.github.io/obsidian-dataview/ )
 - #❗️ (2021-09-05) Make dataview for the following:
 	- [ ] Derivation
 	- [ ] Course 
