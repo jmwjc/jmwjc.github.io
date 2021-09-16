@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2eab6f30cd995a1d",
+        "id": "a3afff3f5897162d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📮 Inbox/mechanics/Phase field model.md",
-            "mode": "source"
+            "file": "★ Verb.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag",
+                "query": "tag:#❗️",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,12 +79,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📮 Inbox/mechanics/Phase field model.md",
+                "file": "★ Verb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "set",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,7 +107,7 @@
             }
           },
           {
-            "id": "55b5acbaeeaea6da",
+            "id": "326bb971b668aec8",
             "type": "leaf",
             "state": {
               "type": "dictionary-view",
@@ -119,19 +119,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362
+    "width": 233
   },
-  "active": "2eab6f30cd995a1d",
+  "active": "a3afff3f5897162d",
   "lastOpenFiles": [
-    "📮 Inbox/mechanics/Phase field model.md",
-    "📮 Inbox/🏗  结构力学/§ 第七章 位移法.md",
+    "★ Verb.md",
+    "✱ Customized Hotkeys.md",
     "Excalidraw/Drawing 2021-09-09 11.16.05.excalidraw.md",
-    "📮 Inbox/🏗  结构力学/§ Syllabus.md",
-    "§ 结构力学目录.md",
+    "✱ Plugins for Vim.md",
+    "未命名.md",
+    "✱ Plugins for Zotero.md",
+    "✱ Tag Category.md",
     "✱ Plugins for Obsidian.md",
-    "📌  To Do List.md",
-    "📌  看板.md",
-    "Untitled.md",
-    "📮 Inbox/☾ 2021 Daily Logs.md"
+    "📮 Inbox/☾ 2021 Daily Logs.md",
+    "📮 Inbox/∞ Derivation of linear triangular domain.md"
   ]
 }

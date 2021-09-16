@@ -15,5 +15,13 @@
       ],
       "key": "E"
     }
+  ],
+  "open-with-default-app:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "I"
+    }
   ]
 }

@@ -1,3 +1,3 @@
-# <% tp.date.now("MMMM YYYY") %>
-## <% tp.date.now("ddd YYYY-MM-DD") %>
+# 九月 2021
+## 周四 2021-09-16
 - <% tp.file.cursor(1) %>
