@@ -86,7 +86,7 @@ d\boldsymbol{\xi} \cdot 2 \boldsymbol{E} \cdot d\boldsymbol{\xi}
 \end{split}
 \end{equation}
 $$
-where, according to [[Curvilinear Coordinates]], the covariant basis vectors and metric coefficient are defined by:
+where, according to [[❖ Curvilinear Coordinates]], the covariant basis vectors and metric coefficient are defined by:
 $$
 \begin{equation}
 d\boldsymbol{x} = \boldsymbol{g}_i d\xi^i, \quad

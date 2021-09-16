@@ -22,3 +22,6 @@ The hotkeys of this plugin cannot work properly, I change `opt` -> `^` to make i
 	- [ ] Course 
 
 # [oz-image-in-editor](https://github.com/ozntel/oz-image-in-editor-obsidian)
+# [Icons](https://github.com/visini/obsidian-icons-plugin)
+- [Remix Icon](https://remixicon.com/)
+- [FontAwesome](https://fontawesome.com/)

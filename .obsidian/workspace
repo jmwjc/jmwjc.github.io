@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a3afff3f5897162d",
+        "id": "2eab6f30cd995a1d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "★ Verb.md",
-            "mode": "preview"
+            "file": "📮 Inbox/➤ wu2021accuracy-zotero.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#❗️",
+                "query": "tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,12 +79,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "★ Verb.md",
+                "file": "📮 Inbox/➤ wu2021accuracy-zotero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "set",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,31 +107,31 @@
             }
           },
           {
-            "id": "326bb971b668aec8",
+            "id": "55b5acbaeeaea6da",
             "type": "leaf",
             "state": {
               "type": "dictionary-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233
+    "width": 362,
+    "collapsed": true
   },
-  "active": "a3afff3f5897162d",
+  "active": "2eab6f30cd995a1d",
   "lastOpenFiles": [
-    "★ Verb.md",
-    "✱ Customized Hotkeys.md",
-    "Excalidraw/Drawing 2021-09-09 11.16.05.excalidraw.md",
-    "✱ Plugins for Vim.md",
-    "未命名.md",
-    "✱ Plugins for Zotero.md",
+    "📮 Inbox/➤ wu2021accuracy-zotero.md",
+    "📮 Inbox/➤ mase1999continuum-zotero.md",
+    "❖ Brief introduction to tensor.md",
+    "❖ Kinematics.md",
+    "📮 Inbox/math/Curvilinear Coordinates.md",
+    "Untitled.md",
+    "❖ Frontmatter Template.md",
+    "🚀  Templates/∞  Frontmatter Template.md",
     "✱ Tag Category.md",
-    "✱ Plugins for Obsidian.md",
-    "📮 Inbox/☾ 2021 Daily Logs.md",
-    "📮 Inbox/∞ Derivation of linear triangular domain.md"
+    "🚀  Templates/✱  Insert Warning Log Template.md"
   ]
 }
