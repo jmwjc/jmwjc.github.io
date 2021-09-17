@@ -13,7 +13,8 @@
     "Christoffel",
     "Timoshenko",
     "meshfree",
-    "Todolist"
+    "Todolist",
+    "whitespace"
   ],
   "fileSortOrder": "alphabetical",
   "pdfExportSettings": {

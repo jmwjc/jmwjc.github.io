@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2eab6f30cd995a1d",
+        "id": "a3afff3f5897162d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📮 Inbox/➤ wu2021accuracy-zotero.md",
+            "file": "✱ Ultisnips.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag",
+                "query": "tag:#❗️",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,12 +79,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📮 Inbox/➤ wu2021accuracy-zotero.md",
+                "file": "✱ Ultisnips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "set",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,31 +107,31 @@
             }
           },
           {
-            "id": "55b5acbaeeaea6da",
+            "id": "326bb971b668aec8",
             "type": "leaf",
             "state": {
               "type": "dictionary-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 362,
-    "collapsed": true
+    "width": 233
   },
-  "active": "2eab6f30cd995a1d",
+  "active": "a3afff3f5897162d",
   "lastOpenFiles": [
-    "📮 Inbox/➤ wu2021accuracy-zotero.md",
-    "📮 Inbox/➤ mase1999continuum-zotero.md",
-    "❖ Brief introduction to tensor.md",
-    "❖ Kinematics.md",
-    "📮 Inbox/math/Curvilinear Coordinates.md",
-    "Untitled.md",
-    "❖ Frontmatter Template.md",
-    "🚀  Templates/∞  Frontmatter Template.md",
+    "✱ Ultisnips.md",
+    "★ Verb.md",
+    "Templates/∞  Frontmatter Template.md",
+    "Templates/★ Collect New Phrase Template.md",
+    "Templates/☾ Daily Log This Month Template.md",
+    "✱ Plugins for Obsidian.md",
+    "未命名.md",
     "✱ Tag Category.md",
-    "🚀  Templates/✱  Insert Warning Log Template.md"
+    "Inbox/research/A New Way for Testing Galerkin Methods.md",
+    "Inbox/solfware/A sample guide for Abaqus.md"
   ]
 }
