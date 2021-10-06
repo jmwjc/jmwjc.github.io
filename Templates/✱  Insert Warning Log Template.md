@@ -1,2 +1,2 @@
-- #❗️ (2021-09-16) <% tp.file.cursor(1) %>
-	- [ ] <% tp.file.cursor(2) %>
+- #❗️ (<% tp.date.now("YYYY-MM-DD") %>) <% tp.file.cursor(1) %>
+	- [ ] 

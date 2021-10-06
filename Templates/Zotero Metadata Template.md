@@ -1,7 +1,7 @@
 ---
 Title: 
 Tags:{{}}
-Rating:
+Rating:★☆
 Year:
 ---
  {{title}}

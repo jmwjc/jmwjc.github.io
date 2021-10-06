@@ -1,0 +1,25 @@
+{
+  "metadata-keys": [
+    {
+      "id": "qqh2isxfc",
+      "metadataKey": "Status",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "id": "tccpuqf6v",
+      "metadataKey": "Manager",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "id": "6h44uxpca",
+      "metadataKey": "Next",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    }
+  ]
+}

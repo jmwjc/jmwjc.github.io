@@ -1,7 +1,7 @@
 ---
-File  : ∞ Derivation of linear triangular domain
 Topic : localerror
-Status: #✏️
+Status: ️🖍 🟨
+Manager: WuJC
 ---
 Last modify data: <%+ tp.file.last_modified_date() %>
 Logs: 

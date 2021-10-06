@@ -1,4 +1,16 @@
 {
   "theme": "moonstone",
-  "baseFontSize": 16
+  "baseFontSize": 21,
+  "enabledCssSnippets": [
+    "test",
+    "nicer-checkboxes",
+    "enlarge-image-on-hover",
+    "inline-block-embeds",
+    "bigger-link-popup-preview",
+    "hyphenation-and-justiffication",
+    "bullet-point-relationship-lines",
+    "tag-pills",
+    "clutter-free-headings",
+    "clutter-free-formatting"
+  ]
 }

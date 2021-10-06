@@ -1,3 +1,9 @@
+---
+
+kanban-plugin: basic
+
+---
+
 ```dataview
-task from "📮 Inbox"
+task from "Inbox"
 ```

@@ -1,0 +1,9 @@
+- [ ] Collect the references and record in Introduction.
+- [ ] Manage the structure of paper, determine the content of every sections.
+- [ ] Describe the result of numerical example, as you finish your test.
+- [ ] Write down and arrange all the equations.
+- [ ] Describe the methodology section by section.
+- [ ] Manage the content of every paragraphs.
+- [ ] Manage every sentence in each paragraphs of Introduction.
+- [ ] Write the conclusion and abstract.
+- [ ] Review paper.
