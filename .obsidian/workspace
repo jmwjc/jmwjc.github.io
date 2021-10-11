@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf1a3dea5fd4a53",
+        "id": "be20915206244745",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "★ Academic Phrasebank.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "marked2",
+                "query": "tag:#❗️",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -59,13 +59,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 229,
-    "collapsed": true
+    "width": 229
   },
   "right": {
     "id": "6c38ad2845f8482e",
@@ -85,8 +83,8 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "set",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,31 +107,32 @@
             }
           },
           {
-            "id": "55b5acbaeeaea6da",
+            "id": "326bb971b668aec8",
             "type": "leaf",
             "state": {
               "type": "dictionary-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 362,
+    "width": 233,
     "collapsed": true
   },
-  "active": "6cf1a3dea5fd4a53",
+  "active": "be20915206244745",
   "lastOpenFiles": [
-    "Untitled.md",
-    "📌  kanban.md",
-    "Inbox/✱ Plugins for Obsidian.md",
-    "✱ Drafts Works with Obsidian.md",
-    "Templates/✱  Insert Warning Log Template.md",
-    "Inbox/✱ Criticmarkup Setup.md",
-    "marked2.md",
-    "Writing/★ Thesaurus.md",
+    "★ Academic Phrasebank.md",
     "Writing/★ Sentence Structure.md",
-    "Writing/★ Introduction.md"
+    "Writing/★ Thesaurus.md",
+    "Students/☑︎ WuXY 2021-09-30.md",
+    "Students/WuXY 2021-09-28.md",
+    "Students/2021-10-06.md",
+    "未命名.md",
+    "✱ Ultisnips.md",
+    "★ Verb.md",
+    "Templates/∞  Frontmatter Template.md"
   ]
 }
