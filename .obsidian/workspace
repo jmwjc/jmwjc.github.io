@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "★ Academic Phrasebank.md",
+            "file": "❖ Local Semi-exactness.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "★ Academic Phrasebank.md",
+                "file": "❖ Local Semi-exactness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,15 +124,15 @@
   },
   "active": "be20915206244745",
   "lastOpenFiles": [
+    "❖ Local Semi-exactness.md",
+    "📌  kanban.md",
+    "❖ Galerkin methods.md",
+    "📌  To Do List.md",
     "★ Academic Phrasebank.md",
     "Writing/★ Sentence Structure.md",
     "Writing/★ Thesaurus.md",
     "Students/☑︎ WuXY 2021-09-30.md",
     "Students/WuXY 2021-09-28.md",
-    "Students/2021-10-06.md",
-    "未命名.md",
-    "✱ Ultisnips.md",
-    "★ Verb.md",
-    "Templates/∞  Frontmatter Template.md"
+    "Students/2021-10-06.md"
   ]
 }

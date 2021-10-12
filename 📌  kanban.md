@@ -23,6 +23,7 @@ kanban-plugin: basic
 - [ ] [[❖ Triangular element]]
 - [ ] [[∞ Local Error Segment and Triangle]]
 - [ ] [[❖ Triangluar Trace Interpolation]]
+- [ ] [[❖ Local Semi-exactness]]
 
 
 ## Consistent boundary condition
@@ -48,6 +49,6 @@ kanban-plugin: basic
 
 ***
 
-## Archive
+## 归档
 
 - [ ] [[shellRKGSI]]
