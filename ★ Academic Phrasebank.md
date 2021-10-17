@@ -4,10 +4,10 @@ Coc.nvim is autocomplete plugin for nvim editor, and it allow to create custom s
 ```
 function! coc#source#{name}#init() abort
     return {
-        \ 'shortcut': string
-        \ 'priority': number
-        \ 'filetypes': string
-        \ 'firstMatch': string
+        \ 'shortcut': string,
+        \ 'priority': number,
+        \ 'filetypes': string,
+        \ 'firstMatch': string,
         \ 'triggerCharacters': string
         \}
 endfunction
