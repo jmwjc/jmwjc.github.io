@@ -13,6 +13,14 @@
             "mode": "preview"
           }
         }
+      },
+      {
+        "id": "64087e6f2dcb1e2b",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "∞ Hellinger-Reissner (HR) Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,8 +130,9 @@
     "width": 362,
     "collapsed": true
   },
-  "active": "6cf1a3dea5fd4a53",
+  "active": "64087e6f2dcb1e2b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Untitled.md",
     "📌  kanban.md",
     "★ Academic Phrasebank.md",
@@ -133,7 +141,6 @@
     "Templates/✱  Insert Warning Log Template.md",
     "Inbox/✱ Criticmarkup Setup.md",
     "marked2.md",
-    "Writing/★ Thesaurus.md",
-    "Writing/★ Sentence Structure.md"
+    "Writing/★ Thesaurus.md"
   ]
 }
