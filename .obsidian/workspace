@@ -9,7 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "∞ Hellinger-Reissner (HR) Principle.md",
+=======
+            "file": "❖ A Short Course for 1D Galerkin Methods.md",
+>>>>>>> 530e487fc8f020f05c0d4a30602a97214aaf69e5
             "mode": "preview"
           }
         }
@@ -89,6 +93,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "❖ A Short Course for 1D Galerkin Methods.md",
+>>>>>>> 530e487fc8f020f05c0d4a30602a97214aaf69e5
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,6 +140,7 @@
   },
   "active": "64087e6f2dcb1e2b",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "conflict-files-obsidian-git.md",
     "Untitled.md",
     "📌  kanban.md",
@@ -142,5 +151,17 @@
     "Inbox/✱ Criticmarkup Setup.md",
     "marked2.md",
     "Writing/★ Thesaurus.md"
+=======
+    "❖ A Short Course for 1D Galerkin Methods.md",
+    "❖ Galerkin methods.md",
+    "❖ Local Semi-exactness.md",
+    "📌  kanban.md",
+    "📌  To Do List.md",
+    "★ Academic Phrasebank.md",
+    "Writing/★ Sentence Structure.md",
+    "Writing/★ Thesaurus.md",
+    "Students/☑︎ WuXY 2021-09-30.md",
+    "Students/WuXY 2021-09-28.md"
+>>>>>>> 530e487fc8f020f05c0d4a30602a97214aaf69e5
   ]
 }
