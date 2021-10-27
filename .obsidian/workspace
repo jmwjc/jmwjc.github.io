@@ -4,26 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf1a3dea5fd4a53",
+        "id": "be20915206244745",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "∞ Hellinger-Reissner (HR) Principle.md",
-=======
-            "file": "❖ A Short Course for 1D Galerkin Methods.md",
->>>>>>> 530e487fc8f020f05c0d4a30602a97214aaf69e5
+            "file": "Inbox/❖ Simplex Elements.md",
             "mode": "preview"
           }
-        }
-      },
-      {
-        "id": "64087e6f2dcb1e2b",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -51,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "marked2",
+                "query": "tag:#🌲",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,13 +59,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 229,
-    "collapsed": true
+    "width": 229
   },
   "right": {
     "id": "6c38ad2845f8482e",
@@ -93,26 +79,15 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "❖ A Short Course for 1D Galerkin Methods.md",
->>>>>>> 530e487fc8f020f05c0d4a30602a97214aaf69e5
+                "file": "Inbox/❖ Simplex Elements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "set",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
-            }
-          },
-          {
-            "id": "d9ec6cc802d0ef3e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -124,44 +99,32 @@
             }
           },
           {
-            "id": "55b5acbaeeaea6da",
+            "id": "326bb971b668aec8",
             "type": "leaf",
             "state": {
               "type": "dictionary-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 362,
+    "width": 233,
     "collapsed": true
   },
-  "active": "64087e6f2dcb1e2b",
+  "active": "be20915206244745",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
-    "📌  kanban.md",
-    "★ Academic Phrasebank.md",
-    "Inbox/✱ Plugins for Obsidian.md",
-    "✱ Drafts Works with Obsidian.md",
-    "Templates/✱  Insert Warning Log Template.md",
-    "Inbox/✱ Criticmarkup Setup.md",
-    "marked2.md",
-    "Writing/★ Thesaurus.md"
-=======
-    "❖ A Short Course for 1D Galerkin Methods.md",
-    "❖ Galerkin methods.md",
-    "❖ Local Semi-exactness.md",
-    "📌  kanban.md",
-    "📌  To Do List.md",
-    "★ Academic Phrasebank.md",
-    "Writing/★ Sentence Structure.md",
-    "Writing/★ Thesaurus.md",
-    "Students/☑︎ WuXY 2021-09-30.md",
-    "Students/WuXY 2021-09-28.md"
->>>>>>> 530e487fc8f020f05c0d4a30602a97214aaf69e5
+    "Inbox/❖ Simplex Elements.md",
+    "Inbox/❖ Strong and weak forms for shell formulation.md",
+    "Inbox/❖ Triangluar Trace Interpolation.md",
+    "Inbox/❖ T6P3.md",
+    "Inbox/❖ Kinematics.md",
+    "Inbox/❖ length, area, volume for simplex cells.md",
+    "Inbox/❖ Hookean and non-hookean material.md",
+    "Inbox/∞ Generalized reproducing kernel gradient smoothing integration.md",
+    "Inbox/∞ Mixed formulation.md",
+    "Inbox/∞ Local Error Segment and Triangle.md"
   ]
 }
