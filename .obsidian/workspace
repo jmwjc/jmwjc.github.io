@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inbox/❖ Simplex Elements.md",
-            "mode": "preview"
+            "file": "♠️ The Designation of Approximation Type for MFEA.md",
+            "mode": "source"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/❖ Simplex Elements.md",
+                "file": "♠️ The Designation of Approximation Type for MFEA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +116,8 @@
   },
   "active": "be20915206244745",
   "lastOpenFiles": [
+    "♠️ The Designation of Approximation Type for MFEA.md",
+    "📌  kanban.md",
     "Inbox/❖ Simplex Elements.md",
     "Inbox/❖ Strong and weak forms for shell formulation.md",
     "Inbox/❖ Triangluar Trace Interpolation.md",
@@ -123,8 +125,6 @@
     "Inbox/❖ Kinematics.md",
     "Inbox/❖ length, area, volume for simplex cells.md",
     "Inbox/❖ Hookean and non-hookean material.md",
-    "Inbox/∞ Generalized reproducing kernel gradient smoothing integration.md",
-    "Inbox/∞ Mixed formulation.md",
-    "Inbox/∞ Local Error Segment and Triangle.md"
+    "Inbox/∞ Generalized reproducing kernel gradient smoothing integration.md"
   ]
 }
