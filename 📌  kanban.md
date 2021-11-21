@@ -47,6 +47,14 @@ kanban-plugin: basic
 - [ ] [[★ How to built thesaurus lib for academic writing?]]
 
 
+## Program
+
+- [ ] - [ ] 前处理完善
+- [ ] - [ ] 增加RKGSI
+- [ ] - [ ] 增加HR弱形式
+- [ ] - [ ] 增加平面应变问题
+
+
 ***
 
 ## 归档

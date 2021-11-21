@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "be20915206244745",
+        "id": "5990b23846469156",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "♠️ The Designation of Approximation Type for MFEA.md",
-            "mode": "source"
+            "file": "❖ Membrane Locking.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "♠️ The Designation of Approximation Type for MFEA.md",
+                "file": "❖ Membrane Locking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +114,17 @@
     "width": 233,
     "collapsed": true
   },
-  "active": "be20915206244745",
+  "active": "5990b23846469156",
   "lastOpenFiles": [
-    "♠️ The Designation of Approximation Type for MFEA.md",
+    "❖ Membrane Locking.md",
+    "有限元大作业.md",
+    "Inbox/¥ 2022福建省基金提纲.md",
     "📌  kanban.md",
-    "Inbox/❖ Simplex Elements.md",
-    "Inbox/❖ Strong and weak forms for shell formulation.md",
-    "Inbox/❖ Triangluar Trace Interpolation.md",
-    "Inbox/❖ T6P3.md",
-    "Inbox/❖ Kinematics.md",
-    "Inbox/❖ length, area, volume for simplex cells.md",
-    "Inbox/❖ Hookean and non-hookean material.md",
-    "Inbox/∞ Generalized reproducing kernel gradient smoothing integration.md"
+    "Students/WuXY 2021-11-10.md",
+    "Students/WuXY 2021-11-02.md",
+    "Students/WuXY 2021-10-06.md",
+    "Students/WuXY 2021-09-28.md",
+    "Students/WuXY 2021-09-24.md",
+    "Students/☑︎ WuXY 2021-09-08.md"
   ]
 }
