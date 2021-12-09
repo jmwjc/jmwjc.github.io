@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inbox/¥ 2022福建省基金提纲.md",
-            "mode": "source"
+            "file": "Inbox/❖ Elasticity.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/¥ 2022福建省基金提纲.md",
+                "file": "Inbox/❖ Elasticity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +116,7 @@
   },
   "active": "5990b23846469156",
   "lastOpenFiles": [
+    "Inbox/❖ Elasticity.md",
     "Inbox/¥ 2022福建省基金提纲.md",
     "Inbox/结构力学/§ 第五章 位移法.md",
     "Inbox/结构力学/§ 第一章 结构和荷载的分类.md",
@@ -124,7 +125,6 @@
     "有限元大作业.md",
     "Students/WuXY 2021-11-10.md",
     "Students/WuXY 2021-11-02.md",
-    "Students/WuXY 2021-10-06.md",
-    "Students/WuXY 2021-09-28.md"
+    "Students/WuXY 2021-10-06.md"
   ]
 }

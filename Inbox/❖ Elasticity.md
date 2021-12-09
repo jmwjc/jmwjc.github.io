@@ -91,6 +91,24 @@ d_{xI} \\ d_{yI} \\ d_{zI}
 \end{Bmatrix}
 $$
 
+$$
+\bm{K}_{IJ} = \int_\Omega \begin{bmatrix}
+    N_{I,x} & 0 & 0 \\ 0 & N_{I,y} & 0 \\ 0 & 0 & N_{I,z} \\
+    N_{I,y} & N_{I,x} & 0 \\ N_{I,z} & 0 & N_{I,x} \\ 0 & N_{I,z} & N_{I,y}
+\end{bmatrix}^T
+\begin{bmatrix}
+1-\nu &   \nu &   \nu & 0 & 0 & 0 \\
+  \nu & 1-\nu &   \nu & 0 & 0 & 0 \\
+  \nu &   \nu & 1-\nu & 0 & 0 & 0 \\
+    0 &     0 &     0 & \frac{(1-2\nu)}{2} & 0 & 0 \\
+    0 &     0 &     0 & 0 & \frac{(1-2\nu)}{2} & 0 \\
+    0 &     0 &     0 & 0 & 0 & \frac{(1-2\nu)}{2}
+\end{bmatrix}
+\begin{bmatrix}
+    N_{I,x} & 0 & 0 \\ 0 & N_{I,y} & 0 \\ 0 & 0 & N_{I,z} \\
+    N_{I,y} & N_{I,x} & 0 \\ N_{I,z} & 0 & N_{I,x} \\ 0 & N_{I,z} & N_{I,y}
+\end{bmatrix}d\Omega
+$$
 Dilatation part and deviatoric part
 
 $$
