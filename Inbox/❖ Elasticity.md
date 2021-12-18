@@ -330,6 +330,17 @@ v = \frac{P}{6EI}[3\nu y^2(L-x) + (4+5\nu)\frac{D^2x}{4} + (3L-x)x^2]
 $$
 
 $$
+\left \{
+\begin{array}{l}
+u_{,x} = -\frac{Py}{EI}(L-x) \\
+u_{,y} = \frac{P}{6EI}[-(6L-3x)x - (2+\nu)(3y^2 - \frac{D^2}{4})] \\
+v_{,x} = \frac{P}{6EI}[(6L-3x)x -3\nu y^2 + (4+5\nu)\frac{D^2}{4}] \\
+v_{,y} = \frac{Py}{EI}(L-x)\nu
+\end{array}
+\right .
+$$
+
+$$
 I=\frac{D^3}{12}
 $$
 
