@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "未命名 1.md",
-            "mode": "source"
+            "file": "Inbox/❖ Phase field model.md",
+            "mode": "preview"
           }
         }
       }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 1.md",
+                "file": "Inbox/❖ Phase field model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +116,15 @@
   },
   "active": "5990b23846469156",
   "lastOpenFiles": [
-    "未命名 1.md",
+    "Inbox/❖ Phase field model.md",
+    "∞ Phase field modeling frictional shear fracture for geologic materials.md",
+    "Inbox/Literature/Newtonian Mechanics.md",
     "Inbox/❖ Elasticity.md",
+    "Inbox/Exercises 1.md",
+    "Students/WuXY 2021-10-06.md",
+    "Students/WuXY 2021-11-10.md",
+    "✱ Julia Package.md",
     "★ Academic Phrasebank.md",
-    "∞ Hellinger-Reissner (HR) Principle.md",
-    "♠️ The Designation of Approximation Type for MFEA.md",
-    "✱ Drafts Works with Obsidian.md",
-    "✱ vimtex+skim Setup.md",
-    "❖ A Short Course for 1D Galerkin Methods.md",
-    "❖ Galerkin methods.md",
-    "❖ Local Semi-exactness.md"
+    "∞ Hellinger-Reissner (HR) Principle.md"
   ]
 }
