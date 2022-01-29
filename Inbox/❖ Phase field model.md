@@ -79,6 +79,9 @@ where
 $$
 \tau:= \frac{1}{2}\bm{\sigma}:\bm{\alpha}, \quad \bm{\alpha} = \bm{m} \otimes \bm{n} + \bm{n} \otimes \bm{m}
 $$
+$$
+\tau_{Y} = - \mu \sigma_{nn}, \quad \sigma_{nn} = \bm{\sigma}:\bm{\beta},\quad \bm{\beta} = \bm{n}\otimes \bm{n}
+$$
 Kuhn-Tucker conditions:
 $$
 \text{if} f(\bm{\sigma}) = 0\; \text{and} \; \gamma \ne 0, \quad
@@ -98,9 +101,9 @@ $$
 $$
 $$
 \begin{align}
-    \partial_{\bm{\sigma}}f &= \frac{\partial \vert \tau \vert}{\partial \bm{\sigma}} \\
-           &= \frac{\partial \vert \frac{1}{2}\bm{\sigma}:\bm{\alpha} \vert}{\partial \bm{\sigma}} \\
-           &= \frac{1}{2}\text{sign}(\tau)\bm{\alpha}
+    \partial_{\bm{\sigma}}f &= \frac{\partial (\vert \tau \vert - \tau_{Y})}{\partial \bm{\sigma}} \\
+           &= \frac{\partial (\vert \frac{1}{2}\bm{\sigma}:\bm{\alpha} \vert + \mu \bm{\sigma}:\bm{\beta})}{\partial \bm{\sigma}} \\
+           &= \frac{1}{2}\text{sign}(\tau)\bm{\alpha} + \mu \bm{\beta}
 \end{align}
 $$
 $$
@@ -125,28 +128,26 @@ $$
 \bm{r} = \partial_{\bm{\sigma}}f
 $$
 $$
+\bm{r}:\frac{\bm{C}:\bm{r}}{\bm{r}:\bm{C}:\bm{r}},\quad \bm{r}:\mathrm{sign}(\tau)\bm{\alpha} = 1 \Rightarrow \frac{\bm{C}:\bm{r}}{\bm{r}:\bm{C}:\bm{r}} = \mathrm{sign}(\tau)\bm{\alpha}
+$$
+$$
 \bm{C}^{\text{ep}} = \left \{
 \begin{array}{l}
     \bm{C} & \text{if} \; \gamma = 0 \\
-    \bm{C} - \frac{\bm{C}:\bm{\alpha}\otimes\bm{C}:\bm{\alpha}}{\bm{\alpha}:\bm{C}:\bm{\alpha}} & \text{if} \; \gamma > 0
+    \bm{C} - \mathrm{sign}(\tau)\bm{\alpha}\otimes\bm{C}:\bm{r} & \text{if} \; \gamma > 0
     
 \end{array}
 \right .
 $$
-
 $$
-
-$$
-$$
-\bm{\sigma}_{\text{interface}} = \left \{
+\dot{\bm{\sigma}}_{\text{interface}} = \left \{
     \begin{array}{l}
     \bm{0} & \text{if open}(\varepsilon_{nn}>0) \\
-    \bm{\sigma}_{\text{bulk}} & \text{if stick} (\varepsilon_{nn}\le 0,\; f<0)\\
-    \bm{\sigma}_{\text{friction}} + \bm{\sigma}_{\text{no-penetration}} & \text{if slip} (\varepsilon_{nn}\le0,\;f=0)
+    \dot{\bm{\sigma}}_{\text{bulk}} & \text{if stick} (\varepsilon_{nn}\le 0,\; f<0)\\
+    \dot{\bm{\sigma}}_{\text{friction}} + \dot{\bm{\sigma}}_{\text{no-penetration}} & \text{if slip} (\varepsilon_{nn}\le0,\;f=0)
     \end{array}
 \right .
 $$
-
 $$
 \bm{\sigma} = \left \{
     \begin{array}{l}
@@ -155,6 +156,11 @@ $$
     \bm{\sigma}_{\text{bulk}} - (1-g(v))\tau_{\text{bulk}}\bm{\alpha} + (1-g(v))\tau_{r}\bm{\alpha} & \text{if slip} (\varepsilon_{nn}\le0,\;f=0)
     \end{array}
 \right .
+$$
+where
+$$
+\tau_{\text{bulk}} = \frac{1}{2} \bm{\sigma}:\bm{\alpha},\quad \tau_{\text{r}} = - \mathrm{sign}(\tau_{\text{bulk}})\mu \bm{\sigma}:\bm{\beta}
+
 $$
 ## Weak form
 $$

@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "5990b23846469156",
+        "id": "117c02cf0b54e93c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inbox/❖ Phase field model.md",
-            "mode": "preview"
+            "file": "❖ Simplex.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/❖ Phase field model.md",
+                "file": "❖ Simplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +115,17 @@
     "width": 233,
     "collapsed": true
   },
-  "active": "5990b23846469156",
+  "active": "117c02cf0b54e93c",
   "lastOpenFiles": [
-    "Inbox/❖ Phase field model.md",
-    "∞ Phase field modeling frictional shear fracture for geologic materials.md",
+    "❖ Simplex.md",
+    "Excalidraw/❅ 2022-01-28 17.32.36.excalidraw.md",
     "Inbox/Literature/Newtonian Mechanics.md",
-    "Inbox/❖ Elasticity.md",
-    "Inbox/Exercises 1.md",
-    "Students/WuXY 2021-10-06.md",
-    "Students/WuXY 2021-11-10.md",
-    "✱ Julia Package.md",
-    "★ Academic Phrasebank.md",
-    "∞ Hellinger-Reissner (HR) Principle.md"
+    "Templates/Zotero Metadata Template.md",
+    "Inbox/结构力学/§ Syllabus.md",
+    "Inbox/Literature/Exercises 1.md",
+    "∞ Hellinger-Reissner (HR) Principle.md",
+    "Excalidraw/❅ 2022-01-13 17.03.26.excalidraw.md",
+    "❖ Membrane Locking.md",
+    "❖ Monomial Order.md"
   ]
 }
