@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "❖ Simplex.md",
+            "file": "Nitsche's methods.md",
             "mode": "preview",
             "source": false
           }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "❖ Simplex.md",
+                "file": "Nitsche's methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,15 +117,15 @@
   },
   "active": "117c02cf0b54e93c",
   "lastOpenFiles": [
-    "❖ Simplex.md",
-    "Excalidraw/❅ 2022-01-28 17.32.36.excalidraw.md",
-    "Inbox/Literature/Newtonian Mechanics.md",
-    "Templates/Zotero Metadata Template.md",
-    "Inbox/结构力学/§ Syllabus.md",
-    "Inbox/Literature/Exercises 1.md",
+    "Nitsche's methods.md",
+    "∞ Phase field modeling frictional shear fracture for geologic materials.md",
     "∞ Hellinger-Reissner (HR) Principle.md",
-    "Excalidraw/❅ 2022-01-13 17.03.26.excalidraw.md",
-    "❖ Membrane Locking.md",
-    "❖ Monomial Order.md"
+    "✱ Julia Package.md",
+    "✱ vimtex+skim Setup.md",
+    "❖ A Short Course for 1D Galerkin Methods.md",
+    "Inbox/MFEA/3D bar element.md",
+    "Inbox/MFEA/Approximation.md",
+    "Inbox/MFEA/Constant strain element.md",
+    "Inbox/MFEA/Implement for meshfree shape functions.md"
   ]
 }
