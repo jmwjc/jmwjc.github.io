@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "117c02cf0b54e93c",
+        "id": "5990b23846469156",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Nitsche's methods.md",
+            "file": "Inbox/MFEA/Data Structure.md",
             "mode": "preview",
             "source": false
           }
@@ -80,12 +80,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nitsche's methods.md",
+                "file": "Inbox/MFEA/Data Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": "set",
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,25 +107,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233,
-    "collapsed": true
+    "width": 233
   },
-  "active": "117c02cf0b54e93c",
+  "active": "5990b23846469156",
   "lastOpenFiles": [
-    "Nitsche's methods.md",
-    "∞ Phase field modeling frictional shear fracture for geologic materials.md",
-    "∞ Hellinger-Reissner (HR) Principle.md",
-    "✱ Julia Package.md",
+    "Inbox/MFEA/Data Structure.md",
+    "Inbox/MFEA/Content.md",
+    "Inbox/MFEA/Install.md",
     "✱ vimtex+skim Setup.md",
-    "❖ A Short Course for 1D Galerkin Methods.md",
-    "Inbox/MFEA/3D bar element.md",
-    "Inbox/MFEA/Approximation.md",
-    "Inbox/MFEA/Constant strain element.md",
-    "Inbox/MFEA/Implement for meshfree shape functions.md"
+    "Nitsche's methods.md",
+    "∞ Hellinger-Reissner (HR) Principle.md",
+    "📌  kanban.md",
+    "集美中学成人礼讲稿.md",
+    "Inbox/❖ Phase field model.md",
+    "Inbox/❖ Elasticity.md"
   ]
 }
