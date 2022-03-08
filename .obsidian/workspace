@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "117c02cf0b54e93c",
+        "id": "6a4302f084ac84a8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inbox/❖ Elasticity.md",
-            "mode": "preview",
+            "file": "❖ Hellinger-Reissner (HR) Principle.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#🌲",
+                "query": "Hellinger-Reissner",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -60,11 +60,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 229
+    "width": 229,
+    "collapsed": true
   },
   "right": {
     "id": "6c38ad2845f8482e",
@@ -80,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/❖ Elasticity.md",
+                "file": "❖ Hellinger-Reissner (HR) Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +117,17 @@
     "width": 233,
     "collapsed": true
   },
-  "active": "117c02cf0b54e93c",
+  "active": "6a4302f084ac84a8",
   "lastOpenFiles": [
+    "❖ Hellinger-Reissner (HR) Principle.md",
+    "Inbox/❖ bar, beam, plate.md",
+    "❖ Cantilever Beam.md",
     "Inbox/❖ Elasticity.md",
+    "Excalidraw/❅ 2022-03-01 18.07.25.excalidraw.md",
+    "❅ cantilever.excalidraw.md",
+    "Inbox/✱ Plugins for Obsidian.md",
     "Inbox/MFEA/Content.md",
     "Inbox/MFEA/Install.md",
-    "Inbox/MFEA/Data Structure.md",
-    "Nitsche's methods.md",
-    "∞ Phase field modeling frictional shear fracture for geologic materials.md",
-    "∞ Hellinger-Reissner (HR) Principle.md",
-    "✱ Julia Package.md",
-    "✱ vimtex+skim Setup.md",
-    "❖ A Short Course for 1D Galerkin Methods.md"
+    "Inbox/MFEA/Data Structure.md"
   ]
 }
