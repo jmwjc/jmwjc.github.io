@@ -20,25 +20,7 @@ $$
 \end{aligned}
 \right .
 $$
-## Kirchhoff-Love plate
-$$
-\left \{
-\begin{array}{l}
-\bar{u}_{\alpha}(\boldsymbol{x}) = u_{\alpha}(x_1,x_2) - x_3 w_{,\alpha} \\
-\bar{u}_{3}(\boldsymbol{x}) = w(x_1,x_2)
-\end{array}
-\right .
-,\quad \alpha = 1,2
-$$
-$$
-\left \{
-\begin{aligned}
-\varepsilon_{\alpha \beta} &=\frac{1}{2}(u_{\alpha, \beta}+u_{\beta, \alpha})-x_{3}w_{, \alpha \beta} \\
-\varepsilon_{\alpha 3} &=\frac{1}{2}\left(w_{, \alpha}-w_{,\alpha}\right) = 0 \\
-\varepsilon_{33} &=0
-\end{aligned}
-\right .
-$$
+![[❖ Kirchhoff-Love Plate]]
 ## Timoshenko beam
 $$
 \left \{

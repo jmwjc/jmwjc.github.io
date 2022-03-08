@@ -34,5 +34,5 @@ $$
 \end{multline}
 $$
 
-# [[❖ bar, beam, plate|Kirchhoff-Love Plate]]
+# [[❖ Kirchhoff-Love Plate|Kirchhoff-Love Plate]]
 
