@@ -52,6 +52,10 @@ where
 $$
 Q_{\bm{n}} = M_{\alpha \beta, \beta} n_{\alpha}, \qquad M_{\bm{nn}} = M_{\alpha \beta} n_\alpha n_\beta, \qquad M_{\bm{ns},\bm{s}} = M_{\alpha \beta, \gamma}s_{\alpha} n_{\beta} s_{\gamma}
 $$
+and the $n_{\alpha}$ and $s_{\alpha}$ are the components of outward normal and tangential vectors, and the following relation holds true:
+$$
+\delta_{\alpha \beta} = n_{\alpha}n_{\beta} + s_{\alpha}s_{\beta}
+$$
 the Hellinger-Reissner potential energy functional lists as follow:
 $$
 \begin{multline}
@@ -59,7 +63,7 @@ $$
     - \int_{\Gamma^w}\bar{w} M_{\alpha \beta} n_{\alpha} n_{\beta} d\Gamma + \int_{\Gamma^\theta} \bar{\theta}_{\bm{n}} M_{\bm{nn}}d\Gamma
 \end{multline}
 $$
-in which, the relation of $\bar{\theta}_{\bm{s}}$ is embedded. Follow the same path, the external force and body force are applied by Lagrangian multipliers:
+in which, the relation of $\bar{\theta}_{\bm{s}} = w_{,\alpha}s_{\alpha} = 0$ is embedded. Follow the same path, the external force and body force are applied by Lagrangian multipliers:
 $$
 \begin{align}
     \bar{\Pi}(M_{\alpha \beta}) = \Pi(M_{\alpha \beta}) + \int_{\Omega} w(M_{\alpha \beta, \alpha \beta} + \bar{q})d\Omega + \int_{\Gamma^M}w_{,\bm{n}}(M_{\bm{nn}} - \bar{M}_{\bm{nn}})d\Gamma - \int_{\Gamma^V} w(V_{\bm{n}} - \bar{V}_{\bm{n}})d\Gamma
