@@ -7,13 +7,13 @@ $$
 \begin{array}{ll}
     \sigma_{ij,j} + b_{i} = 0 & \text{on} \; \Omega \\
     \sigma_{ij}n_{j} = t_{i} & \text{in} \; \Gamma^t \\
-    u_i  = g_i & \text{in} \; \Gamma^g 
+    u_i  = g_i & \text{in} \; \Gamma^g
 \end{array}
 \right .
 $$
 the Hellinger-Reissner potential energy functional is given by:
 $$
-\Pi(\sigma_{ij}) = \int_\Omega W(\sigma_{ij}) d\Omega - \int_{\Gamma^g} \sigma_{ij}n_{j}g_{i} d\Gamma 
+\Pi(\sigma_{ij}) = \int_\Omega W(\sigma_{ij}) d\Omega - \int_{\Gamma^g} \sigma_{ij}n_{j}g_{i} d\Gamma
 $$
 where $W$ is the energy density, stress and strain has the following relation:
 $$
@@ -30,7 +30,7 @@ with variational operator, the weak form can be expressed as:
 $$
 \begin{multline}
     \delta \bar{\Pi}(\sigma_{ij}) = \int_{\Omega} \delta \sigma_{ij} \frac{\partial W}{\partial \sigma_{ij}} d\Omega - \int_{\Gamma^g} \delta \sigma_{ij}n_j g_i d\Gamma + \int_{\Omega} \delta \sigma_{ij,j} u_i d\Omega - \int_{\Gamma^t} \delta \sigma_{ij}n_j u_i d\Gamma \\
-    + \int_{\Omega} \delta u_i (\sigma_{ij,j} + b_i) d\Omega - \int_{\Gamma^t} \delta u_i(\sigma_{ij}n_j+t_i)d\Gamma
+    + \int_{\Omega} \delta u_i (\sigma_{ij,j} + b_i) d\Omega - \int_{\Gamma^t} \delta u_i(\sigma_{ij}n_j-t_i)d\Gamma
 \end{multline}
 $$
 
@@ -60,7 +60,7 @@ the Hellinger-Reissner potential energy functional lists as follow:
 $$
 \begin{multline}
     \Pi(M_{\alpha \beta}) = \int_{\Omega} \frac{1}{2D(1-\nu^2)}((M_{11} + M_{22})^2 + 2(1+\nu)(M^2_{12}-M_{11}M_{22}))d\Omega \\
-    - \int_{\Gamma^w}\bar{w} M_{\alpha \beta} n_{\alpha} n_{\beta} d\Gamma + \int_{\Gamma^\theta} \bar{\theta}_{\bm{n}} M_{\bm{nn}}d\Gamma
+    - \int_{\Gamma^w}\bar{w} (Q_{\bm{n}} + M_{\bm{ns},\bm{s}}) d\Gamma + \int_{\Gamma^\theta} \bar{\theta}_{\bm{n}} M_{\bm{nn}}d\Gamma
 \end{multline}
 $$
 in which, the relation of $\bar{\theta}_{\bm{s}} = w_{,\alpha}s_{\alpha} = 0$ is embedded. Follow the same path, the external force and body force are applied by Lagrangian multipliers:
@@ -71,6 +71,11 @@ $$
 $$
 the corresponding weak form can be gotten by:
 $$
-\delta \bar{\Pi}(M_{\alpha \beta}) = \delta \Pi (M_{\alpha \beta}) + \int_{\Omega} \delta M_{\alpha \beta, \alpha \beta} w d\Omega + \int_{\Gamma^M} \delta M_{\alpha \beta} n_{\alpha} n_{\beta} w_{,\gamma} n_{\gamma} d\Gamma - \int_{\Gamma^V} \delta V_{\bm{n}} w d\Gamma
+\begin{align}
+\delta \bar{\Pi}(M_{\alpha \beta}) &= \int_{\Omega} \delta M_{\alpha \beta} \frac{\partial W}{\partial M_{\alpha \beta}} d\Omega - \int_{\Gamma^w} (\delta Q_{\bm{n}} + \delta M_{\bm{ns},\bm{s}}) \bar{w} d\Gamma + \int_{\Gamma^\theta} \delta M_{\bm{nn}} \bar{\theta}_{\bm{n}} d\Gamma \\
+&+ \int_{\Omega} \delta M_{\alpha \beta,\alpha \beta} w d\Omega + \int_{\Gamma^M} \delta M_{\bm{nn}} w_{,\bm{n}} d\Gamma - \int_{\Gamma^V} (\delta Q_{\bm{n}} + \delta M_{\bm{ns},\bm{s}}) w d\Gamma \\
+&+ \int_{\Omega} \delta w M_{\alpha \beta,\alpha \beta} d\Omega + \int_{\Gamma^M} \delta w_{,\bm{n}} M_{\bm{nn}} d\Gamma - \int_{\Gamma^V} \delta w (Q_{\bm{n}} + M_{\bm{ns},\bm{s}}) d\Gamma \\
+&+ \int_{\Omega} \delta w \bar{q} d\Omega - \int_{\Gamma^M} \delta w_{,\bm{n}} \bar{M}_{\bm{nn}} d\Gamma + \int_{\Gamma^V} \delta w \bar{V}_{\bm{n}} d\Gamma
+\end{align}
 $$
 
