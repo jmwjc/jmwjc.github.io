@@ -1,15 +1,17 @@
 {
   "main": {
-    "id": "e623cf060a7089b1",
+    "id": "446054533f5d65bf",
     "type": "split",
     "children": [
       {
-        "id": "27c669be6ba36405",
+        "id": "156626431f445e3f",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "Excalidraw/❅ 2022-03-11 17.23.41.excalidraw.md"
+            "file": "Inbox/结构力学/§ 第一章 结构和荷载的分类.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -17,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7f2a4e28ce837ea1",
+    "id": "8b79f78f8ac7b0dc",
     "type": "split",
     "children": [
       {
-        "id": "1a39acd387586143",
+        "id": "692f2e7564cbb606",
         "type": "tabs",
         "children": [
           {
-            "id": "b2ae274c70ae261d",
+            "id": "8751f38a0857bab1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -33,7 +35,7 @@
             }
           },
           {
-            "id": "47655b86bdd579a0",
+            "id": "590b932b12794b78",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -41,14 +43,46 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2b265191c052248f",
+    "type": "split",
+    "children": [
+      {
+        "id": "803c078fc75ade24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbac9a27d7ef9a77",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Inbox/结构力学/§ 第一章 结构和荷载的分类.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           },
           {
-            "id": "7100f2d895e52295",
+            "id": "fc387f8691c6e2a1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -58,74 +92,24 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 229,
+    "width": 300,
     "collapsed": true
   },
-  "right": {
-    "id": "6c38ad2845f8482e",
-    "type": "split",
-    "children": [
-      {
-        "id": "47396258a4fca1be",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "42966f3db65143f6",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Excalidraw/❅ 2022-03-11 17.23.41.excalidraw.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "set",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "d0b2c165ca01c145",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "326bb971b668aec8",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 2
-      }
-    ],
-    "direction": "horizontal",
-    "width": 233,
-    "collapsed": true
-  },
-  "active": "27c669be6ba36405",
+  "active": "156626431f445e3f",
   "lastOpenFiles": [
-    "Excalidraw/❅ 2022-03-11 17.23.41.excalidraw.md",
     "Inbox/结构力学/§ 第一章 结构和荷载的分类.md",
-    "Excalidraw/❅ charpter 1-1.excalidraw.md",
-    "Inbox/❖ Cantilever Beam.md",
-    "Excalidraw/❅ cantilever.excalidraw.md",
-    "Excalidraw/❅ 2022-03-11 15.43.37.excalidraw.md",
-    "Inbox/❖ Meshfree approxiamtion.md",
-    "∞ Enforcement of Essential Boundary Condition based upon Hellinger-Reissner.md",
+    "Excalidraw/❅ charpter 1-2.excalidraw.md",
     "Inbox/❖ Hellinger-Reissner (HR) Principle.md",
-    "Excalidraw/❅ 2022-03-01 18.07.25.excalidraw.md"
+    "❖ Kirchhoff-Love Plate.md",
+    "Inbox/✱ Plugins for Zotero.md",
+    "Inbox/✱ Plugins for Obsidian.md",
+    "Inbox/❖ bar, beam, plate.md",
+    "Inbox/❖ Shell formulation.md",
+    "Inbox/❖ Hookean and non-hookean material.md",
+    "Inbox/❖ Elasticity.md"
   ]
 }
