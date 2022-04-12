@@ -1,15 +1,17 @@
 {
   "main": {
-    "id": "446054533f5d65bf",
+    "id": "e623cf060a7089b1",
     "type": "split",
     "children": [
       {
-        "id": "e530d11142238170",
+        "id": "27c669be6ba36405",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "Excalidraw/❅ charpter 1-2.excalidraw.md"
+            "file": "❖ Kirchhoff-Love Plate.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -17,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8b79f78f8ac7b0dc",
+    "id": "7f2a4e28ce837ea1",
     "type": "split",
     "children": [
       {
-        "id": "692f2e7564cbb606",
+        "id": "1a39acd387586143",
         "type": "tabs",
         "children": [
           {
-            "id": "8751f38a0857bab1",
+            "id": "b2ae274c70ae261d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -33,7 +35,7 @@
             }
           },
           {
-            "id": "590b932b12794b78",
+            "id": "47655b86bdd579a0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -41,46 +43,14 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "right": {
-    "id": "2b265191c052248f",
-    "type": "split",
-    "children": [
-      {
-        "id": "803c078fc75ade24",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dbac9a27d7ef9a77",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Excalidraw/❅ charpter 1-2.excalidraw.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           },
           {
-            "id": "fc387f8691c6e2a1",
+            "id": "7100f2d895e52295",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -94,20 +64,68 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 229
+  },
+  "right": {
+    "id": "6c38ad2845f8482e",
+    "type": "split",
+    "children": [
+      {
+        "id": "47396258a4fca1be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42966f3db65143f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "❖ Kirchhoff-Love Plate.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "set",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d0b2c165ca01c145",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "326bb971b668aec8",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233,
     "collapsed": true
   },
-  "active": "e530d11142238170",
+  "active": "27c669be6ba36405",
   "lastOpenFiles": [
-    "Excalidraw/❅ charpter 1-2.excalidraw.md",
-    "Excalidraw/❅ string.excalidraw.md",
-    "Inbox/结构力学/§ 第一章 结构和荷载的分类.md",
-    "Inbox/❖ Hellinger-Reissner (HR) Principle.md",
     "❖ Kirchhoff-Love Plate.md",
-    "Inbox/✱ Plugins for Zotero.md",
-    "Inbox/✱ Plugins for Obsidian.md",
+    "∞ Enforcement of Essential Boundary Condition based upon Hellinger-Reissner.md",
+    "Inbox/❖ Hellinger-Reissner (HR) Principle.md",
+    "Inbox/❖ Elasticity.md",
     "Inbox/❖ bar, beam, plate.md",
-    "Inbox/❖ Shell formulation.md",
-    "Inbox/❖ Hookean and non-hookean material.md"
+    "Inbox/结构力学/§ 第一章 结构和荷载的分类.md",
+    "Excalidraw/❅ 2022-03-11 17.23.41.excalidraw.md",
+    "Excalidraw/❅ charpter 1-1.excalidraw.md",
+    "Inbox/❖ Cantilever Beam.md",
+    "Excalidraw/❅ cantilever.excalidraw.md"
   ]
 }

@@ -22,8 +22,8 @@ $$
 the external force and body force are applied by Lagrangian multipliers as:
 $$
 \begin{align}
-    \bar{\Pi}(\sigma_{ij}) &= \Pi(\sigma_{ij}) + \int_{\Omega} u_i (\sigma_{ij,j} + b_i) d\Omega - \int_{\Gamma^t} u_i(\sigma_{ij}n_j+t_i)d\Gamma \\
-    &= \int_\Omega W(\sigma_{ij}) d\Omega - \int_{\Gamma^g} \sigma_{ij}n_{j}g_{i} d\Gamma  + \int_{\Omega} u_i (\sigma_{ij,j} + b_i) d\Omega - \int_{\Gamma^t} u_i(\sigma_{ij}n_j+t_i)d\Gamma
+    \bar{\Pi}(\sigma_{ij}) &= \Pi(\sigma_{ij}) + \int_{\Omega} u_i (\sigma_{ij,j} + b_i) d\Omega - \int_{\Gamma^t} u_i(\sigma_{ij}n_j-t_i)d\Gamma \\
+    &= \int_\Omega W(\sigma_{ij}) d\Omega - \int_{\Gamma^g} \sigma_{ij}n_{j}g_{i} d\Gamma  + \int_{\Omega} u_i (\sigma_{ij,j} + b_i) d\Omega - \int_{\Gamma^t} u_i(\sigma_{ij}n_j-t_i)d\Gamma
 \end{align}
 $$
 with variational operator, the weak form can be expressed as:

@@ -60,6 +60,6 @@ $$
 $$
 according to fundamental theorem for line integrals, we have:
 $$
-\int_{\Gamma} \delta M_{\bm{ns}} w_{,\bm{s}} d\Gamma + \int_{\Gamma} \delta M_{\bm{ns},\bm{s}} w d\Gamma = \int_{\Gamma}(\delta M_{\bm{ns}} w)_{,\bm{s}} d\Gamma = 0
+\int_{\Gamma} \delta M_{\bm{ns}} w_{,\bm{s}} d\Gamma + \int_{\Gamma} \delta M_{\bm{ns},\bm{s}} w d\Gamma = \int_{\Gamma}(\delta M_{\bm{ns}} w)_{,\bm{s}} d\Gamma
 $$
 
