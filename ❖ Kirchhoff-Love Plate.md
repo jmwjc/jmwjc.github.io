@@ -107,3 +107,28 @@ $$
 \int_{\Gamma^V} \delta w \bar{V}_{\bm{n}} d\Gamma + \sum_{j} \delta w_j \bar{P}_j
 \end{align}
 $$
+assuming that
+$$
+M_{\alpha\beta}(\bm{x}) = \bm{a}_{\alpha\beta}^T \bm{q}({\bm{x}}), \; w(\bm{x}) = \sum_{I=1}^{n_p} \Psi_I(\bm{x}) d_I
+$$
+$$
+\delta \bm{a}_{\alpha\beta}^T (d_{\alpha\beta\gamma\eta}\int_{\Omega} \bm{q} \bm{q}^T d\Omega \bm{a}_{\gamma\eta} + \sum_{I=1}^{n_p}(\bm{g}_{\alpha\beta I} - \bm{g}_{\alpha\beta I}^{\theta} + \bm{g}_{\alpha\beta I}^{w} + \bm{g}_{\alpha\beta I}^{w_i}) d_{I}) = \bm{a}_{\alpha\beta}^T f_{\alpha\beta}
+$$
+$$
+\bm{g}_{\alpha\beta I} = \int_{\Gamma} \Psi_{I,\gamma} \bm{q} n_\alpha n_\beta n_\gamma d\Gamma - \int_{\Gamma} \Psi_I (\bm{q}_{,\beta} n_\alpha + \bm{q}_{,\gamma} s_\alpha n_\beta s_\gamma) d\Gamma + \sum_k \Psi_I(\bm{x}_k)\Delta (\bm{q} s_\alpha n_\beta)
+$$
+$$
+\bm{g}_{\alpha\beta I}^\theta = \int_{\Gamma^\theta} \Psi_{I,\gamma} \bm{q} n_\alpha n_\beta n_\gamma d\Gamma
+$$
+$$
+\bm{g}_{\alpha\beta I}^w = \int_{\Gamma^w} \Psi_I (\bm{q}_{,\beta} n_\alpha + \bm{q}_{,\gamma} s_\alpha n_\beta s_\gamma) d\Gamma
+$$
+$$
+\bm{g}_{\alpha\beta I}^{w_i} = \sum_j \Psi_I(\bm{x}_j) \Delta (\bm{q} s_\alpha n_\beta)
+$$
+$$
+\bm{a}_{\alpha\beta} = d_{\alpha\beta\gamma\eta}^{-1} \bm{G}^{-1}(f_{\alpha\beta} - \sum_{I=1}^{n_p}(\bm{g}_{\alpha\beta I} - \bm{g}_{\alpha\beta I}^{\theta} + \bm{g}_{\alpha\beta I}^{w} + \bm{g}_{\alpha\beta I}^{w_i}) d_{I})
+$$
+$$
+\sum_{I=1}^{n_p} \delta d_I(\bm{g}_{\alpha\beta I}^T - \bm{g}_{\alpha\beta I}^{\theta T} + \bm{g}_{\alpha\beta I}^{w T} + \bm{g}_{\alpha\beta I}^{w_i T}) \bm{a}_{\alpha\beta} = \sum_{I=1}^{n_p} \delta d_I f_I
+$$
