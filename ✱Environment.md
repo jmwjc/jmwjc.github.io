@@ -17,6 +17,7 @@
 
 # [Markdown](https://www.markdownguide.org/)
 - 常用markdown软件：[Typroa](https://typora.io/)、[Obsidian](https://obsidian.md/)
+- [Letax公式输入](https://katex.org/docs/supported.html)
 
 # [Visual Studio Code](https://code.visualstudio.com/)
 Extensions:

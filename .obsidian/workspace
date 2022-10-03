@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "✱Environment.md",
+            "file": "_sidebar.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "✱Environment.md",
+                "file": "_sidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e530d11142238170",
+  "active": "8751f38a0857bab1",
   "lastOpenFiles": [
-    "Inbox/✱ Configuration of iTerm.md",
-    "Inbox/✱ Plugins for Obsidian.md",
-    "Inbox/❖ A New Way for Testing Galerkin Methods.md",
-    "Inbox/✱ Ultisnips.md",
-    "Navigation/Research.md",
-    "📌  kanban.md",
-    "❖ Membrane Locking.md",
-    "❖ Monomial Order.md",
-    "❖ Simplex.md",
-    "Inbox/Literature/Newtonian Mechanics.md"
+    "❖BarProblem.md",
+    "❖ A Short Course for 1D Galerkin Methods.md",
+    "❖ Galerkin methods.md",
+    "❖ Kirchhoff-Love Plate.md",
+    "∞ Enforcement of Essential Boundary Condition based upon Hellinger-Reissner.md",
+    "∞ Phase field modeling frictional shear fracture for geologic materials.md",
+    "♠️ Inverse of Moment Matrix.md",
+    "✱ vimtex+skim Setup.md",
+    "✱ Julia Package.md",
+    "✱ Drafts Works with Obsidian.md"
   ]
 }
