@@ -9,8 +9,13 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "_sidebar.md",
             "mode": "preview",
+=======
+            "file": "❖ 1D phase field modeling frature.md",
+            "mode": "source",
+>>>>>>> Stashed changes
             "source": false
           }
         }
@@ -69,7 +74,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "_sidebar.md",
+=======
+                "file": "❖ 1D phase field modeling frature.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +109,7 @@
   },
   "active": "8751f38a0857bab1",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "❖BarProblem.md",
     "❖ A Short Course for 1D Galerkin Methods.md",
     "❖ Galerkin methods.md",
@@ -110,5 +120,17 @@
     "✱ vimtex+skim Setup.md",
     "✱ Julia Package.md",
     "✱ Drafts Works with Obsidian.md"
+=======
+    "∞ Phase field modeling frictional shear fracture for geologic materials.md",
+    "✱ Julia Package.md",
+    "❖ 1D phase field modeling frature.md",
+    "★ Academic Phrasebank.md",
+    "Writing/★ Thesaurus.md",
+    "Inbox/✱ Hotkeys for Vim.md",
+    "✱ vimtex+skim Setup.md",
+    "Inbox/∞ Generalized reproducing kernel gradient smoothing integration.md",
+    "Inbox/∞ Derivation of linear triangular domain.md",
+    "Inbox/❖ Triangular element.md"
+>>>>>>> Stashed changes
   ]
 }
