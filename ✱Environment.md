@@ -14,6 +14,7 @@
 - [Makie](https://docs.makie.org/stable/): 画图包
 - YAML: 读取`yaml`文件
 - XLSX: 读取写入`xlsx`文件
+- [Pardiso](https://pardiso-project.org/): 并行计算库
 
 # [Markdown](https://www.markdownguide.org/)
 - 常用markdown软件：[Typroa](https://typora.io/)、[Obsidian](https://obsidian.md/)
