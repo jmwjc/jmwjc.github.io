@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "2c63734f124b6c42",
+    "id": "d1aa168a9c3f67a4",
     "type": "split",
     "children": [
       {
-        "id": "3ba72863382a5c9f",
+        "id": "ebfb3e76af16f192",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inbox/弹塑性力学与有限元/弹塑性力学 作业.md",
+            "file": "★ Numerical examples.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2aba34ebfeec9d22",
+    "id": "7d34f07976783f46",
     "type": "split",
     "children": [
       {
-        "id": "f59313c436dd5970",
+        "id": "2912ad299452ae23",
         "type": "tabs",
         "children": [
           {
-            "id": "7feb699c2791ae7c",
+            "id": "b9e097c13ed3dc16",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,12 +35,12 @@
             }
           },
           {
-            "id": "44bd0f02f739a5eb",
+            "id": "25f86ba3b5cc2c14",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "perhaps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,27 +49,28 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "45d077b7a386fa9b",
+    "id": "1cb19bf434aea119",
     "type": "split",
     "children": [
       {
-        "id": "1228c68c63bfb5c3",
+        "id": "bb9dc854b52553b0",
         "type": "tabs",
         "children": [
           {
-            "id": "b5a10d26a421fa53",
+            "id": "8735a441a1bfb633",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/弹塑性力学与有限元/弹塑性力学 作业.md",
+                "file": "★ Numerical examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +82,7 @@
             }
           },
           {
-            "id": "ac923e3156058b74",
+            "id": "ef70e97151a91b4a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -98,10 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3ba72863382a5c9f",
+  "active": "25f86ba3b5cc2c14",
   "lastOpenFiles": [
-    "Inbox/❖ Cantilever Beam.md",
-    "Inbox/弹塑性力学与有限元/弹塑性力学 作业.md",
-    "Excalidraw/❅ 2022-10-13 16.27.50.excalidraw.md"
+    "Writing/★ Introduction.md",
+    "Writing/★ Sentence Structure.md",
+    "Inbox/❖ Triangular element.md",
+    "Excalidraw/❅ 2022-10-14 17.08.08.excalidraw.md",
+    "Excalidraw/❅ cantilever.excalidraw.md",
+    "Excalidraw/❅ charpter 1-1.excalidraw.md",
+    "Excalidraw/❅ charpter 1-2.excalidraw.md",
+    "Excalidraw/❅ 2022-03-01 18.07.25.excalidraw.md",
+    "Excalidraw/❅ 2022-10-13 16.27.50.excalidraw.png",
+    "Excalidraw/❅ 2022-10-14 17.03.48.excalidraw.md"
   ]
 }
