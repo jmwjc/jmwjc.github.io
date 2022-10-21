@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "perhaps",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "25f86ba3b5cc2c14",
+  "active": "b9e097c13ed3dc16",
   "lastOpenFiles": [
     "Writing/★ Introduction.md",
     "Writing/★ Sentence Structure.md",
