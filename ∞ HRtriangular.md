@@ -23,5 +23,31 @@ $$
 u^h = \sum_{I=1}^{n_p} N_I d_I
 $$
 $$
-u_{,i}^h = \sum_{I=1}^{3} N_I a_{iI}, \quad \text{in} \; \Omega_C
+u_{,i}^h = \sum_{I=1}^{n_b} \tilde{N}_{I,i} b_{I}
+$$
+substituting these into weak form yields
+$$
+\begin{bmatrix}
+    \pmb K & \pmb G \\
+    \pmb G^T & \pmb 0
+\end{bmatrix} 
+\begin{Bmatrix}
+    \pmb b \\ \pmb d
+\end{Bmatrix}
+= \begin{Bmatrix}
+    \pmb f \\ \pmb q
+\end{Bmatrix}
+$$
+where 
+$$
+K_{IJ} = \int_\Omega \tilde{N}_{I,i} \tilde{N}_{J,i} d\Omega
+$$
+$$
+G_{IK} = - \sum_C \int_{\Gamma_C\\\Gamma^g} \tilde{N}_{I,i}n_i N_{K} d\Gamma
+$$
+$$
+f_I = - \int_{\Gamma^g} \tilde{N}_{I,i} n_i g d\Gamma
+$$
+$$
+q_K = - \int_{\Gamma^t} N_I t d\Gamma - \int_\Omega N_I b d\Omega
 $$
