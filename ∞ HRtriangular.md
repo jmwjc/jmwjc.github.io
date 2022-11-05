@@ -1,3 +1,4 @@
+## Traditional Hellinger-Reissner weak form
 Based upon Hellinger-Reissner theory, the energy functional is given by
 $$
 \Pi(u) = \int_{\Omega} \frac{1}{2} u_{,i} u_{,i} d\Omega - \int_{\Gamma^g} u_{,i}n_i g d\Gamma
@@ -50,4 +51,16 @@ f_I = - \int_{\Gamma^g} \tilde{N}_{I,i} n_i g d\Gamma
 $$
 $$
 q_K = - \int_{\Gamma^t} N_I t d\Gamma - \int_\Omega N_I b d\Omega
+$$
+
+## Modified Hellinger-Reissner weak form
+$$
+\Pi(u) = \int_{\Omega} \frac{1}{2} u_{,i} u_{,i} d\Omega - \int_{\Gamma^g} u_{,i}n_i g d\Gamma
+- \int_{\Gamma^t}u(u_{,i}n_i - t)d\Gamma + \int_{\Omega}u(u_{,ii}+b)d\Omega
+- \sum_{C} \int_{\Gamma_C \setminus \Gamma}[uu_{,i}n_i]d\Gamma
+$$
+with a variational operator employing herein, yields
+$$
+\Pi(u) = \int_{\Omega} \frac{1}{2} u_{,i} u_{,i} d\Omega - \int_{\Gamma^g} u_{,i}n_i g d\Gamma
+
 $$

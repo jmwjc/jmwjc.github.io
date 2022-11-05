@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "∞ HRtriangular.md",
-            "mode": "preview",
+            "file": "✱Environment.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "∞ HRtriangular.md",
+                "file": "✱Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,15 +100,15 @@
   },
   "active": "ebfb3e76af16f192",
   "lastOpenFiles": [
-    "∞ Enforcement of Essential Boundary Condition based upon Hellinger-Reissner.md",
+    "✱Git与Github教程.md",
+    "∞ HRtriangular.md",
     "★ Numerical examples.md",
+    "Numerical Examples.md",
+    "∞ Enforcement of Essential Boundary Condition based upon Hellinger-Reissner.md",
     "Writing/★ Adverb.md",
     "Writing/★ How to built thesaurus lib for academic writing?.md",
     "Writing/★ Introduction.md",
     "Writing/★ Verb.md",
-    "Writing/★ Thesaurus.md",
-    "Writing/★ Sentence Structure.md",
-    "∞ HRtriangular.md",
-    "★ Academic Phrasebank.md"
+    "Writing/★ Thesaurus.md"
   ]
 }

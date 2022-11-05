@@ -4,6 +4,9 @@
 - 提交 `git commit -m "date@name message"`
 - 拉/推 `git pull/push`
 
+# [Sourcetree](https://www.sourcetreeapp.com/)
+**Sourcetree**为可视化`git`管理器。
+
 # [Julia](https://julialang.org/)
 相关资料与常用软件包：
 - [李东风Julia语言学习文档](https://www.math.pku.edu.cn/teachers/lidf/docs/Julia/html/_book/index.html)
