@@ -1,4 +1,4 @@
 - [入组须知](README.md)
 - [常用环境配置](./Homepage/Environment.md)
 - [Git与Github教程](./Homepage/Git与Github教程.md)
-- [Tmux IDE](./Homepage/Tmux IDE.md)
+- [Tmux IDE](./Homepage/Tmux%20IDE.md)

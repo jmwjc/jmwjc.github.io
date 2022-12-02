@@ -10,4 +10,5 @@ time: 2022-12-2
 
 # Config
 'Tmux'配置文件为'.tmux.conf'，可将其与其他软件配置文件一起使用'Git'备份。常用快捷键可参考[Tmux Cheat Sheet](https://tmuxcheatsheet.com/)。配置IDE可配合下列软件：
+- [vim-slime](https://github.com/jpalardy/vim-slime)
 - [htop](https://htop.dev/)

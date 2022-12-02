@@ -24,11 +24,12 @@
   },
   "defaultViewMode": "preview",
   "foldIndent": true,
-  "foldHeading": false,
+  "foldHeading": true,
   "alwaysUpdateLinks": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "legacyEditor": false,
   "livePreview": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "Inbox"
+  "newFileFolderPath": "Inbox",
+  "newLinkFormat": "shortest"
 }
