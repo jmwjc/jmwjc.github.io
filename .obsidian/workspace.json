@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Tmux IDE.md",
+                "file": "Homepage/TmuxIDE.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage/Tmux IDE.md",
+                "file": "Homepage/TmuxIDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,9 +108,9 @@
   },
   "active": "39323031d1a9c0a0",
   "lastOpenFiles": [
-    "Homepage/Environment.md",
     "_sidebar.md",
-    "Homepage/Tmux IDE.md",
+    "Homepage/TmuxIDE.md",
+    "Homepage/Environment.md",
     "Inbox/Linux_IDE.md",
     "\"./Homepage/Tmux.md",
     "Homepage/Git与Github教程.md",
