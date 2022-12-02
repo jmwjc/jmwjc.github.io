@@ -28,5 +28,7 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox"
 }

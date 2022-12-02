@@ -1,9 +1,10 @@
 {
   "Inbox": "RiInboxLine",
   "Templates": "RiBrush2Line",
-  "Slipbox": "RiInboxArchiveLine",
   "Excalidraw": "RiPaletteLine",
   "Inbox/结构力学": "RiWindyLine",
   "Writing": "RiEdit2Line",
-  "Inbox/弹塑性力学与有限元": "RiWindyLine"
+  "Inbox/弹塑性力学与有限元": "RiWindyLine",
+  "Archive": "RiInboxArchiveLine",
+  "Homepage": "RiPagesLine"
 }

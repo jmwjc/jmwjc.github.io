@@ -1,3 +1,7 @@
+---
+author: Wu Junchao
+time: 2022-10-4
+---
 # [Git](https://git-scm.com/)
 **Git**是一款最为流行的版本控制软件，常用代码仓管理平台有[Github](https://github.com/)和[Gitlab](https://about.gitlab.com/)。常用的命令有：
 - 克隆 `git clong + ssh/url`
